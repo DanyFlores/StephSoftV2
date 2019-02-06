@@ -445,9 +445,7 @@ namespace StephSoft
                         MessageBox.Show("Ocurrió un error al guardar los datos. Código el error: " + DatosAux.Resultado, Comun.Sistema, MessageBoxButtons.OK, MessageBoxIcon.Error);
                         Exception AuxEx = new Exception("Ocurrió un error al guardar los datos. código del Error: " + DatosAux.Resultado);
                         LogError.AddExcFileTxt(AuxEx, "frmConcluirCobro ~ btnCobrar_Click");
-                    }
-
-                    
+                    }                    
                 }
             }
             catch(Exception ex)

@@ -1147,184 +1147,184 @@ C:\Steph\StephSoft\StephSoft\bin\Debug\zh-CHT\Microsoft.ReportViewer.WinForms.re
 C:\Steph\StephSoft\StephSoft\bin\Debug\es\Microsoft.VisualStudio.Data.Services.resources.dll
 C:\Steph\StephSoft\StephSoft\bin\Debug\es\Microsoft.VisualStudio.Data.Core.resources.dll
 C:\Steph\StephSoft\StephSoft\obj\Debug\StepthSoft.csproj.CopyComplete
-C:\Users\CID FARES\Source\Repos\StephSoftV2\StephSoft\bin\Debug\SqlServerTypes\x64\msvcr120.dll
-C:\Users\CID FARES\Source\Repos\StephSoftV2\StephSoft\bin\Debug\SqlServerTypes\x64\SqlServerSpatial140.dll
-C:\Users\CID FARES\Source\Repos\StephSoftV2\StephSoft\bin\Debug\SqlServerTypes\x86\msvcr120.dll
-C:\Users\CID FARES\Source\Repos\StephSoftV2\StephSoft\bin\Debug\SqlServerTypes\x86\SqlServerSpatial140.dll
-C:\Users\CID FARES\Source\Repos\StephSoftV2\StephSoft\bin\Debug\StephSoft.exe.config
-C:\Users\CID FARES\Source\Repos\StephSoftV2\StephSoft\bin\Debug\StephSoft.exe
-C:\Users\CID FARES\Source\Repos\StephSoftV2\StephSoft\bin\Debug\StephSoft.pdb
-C:\Users\CID FARES\Source\Repos\StephSoftV2\StephSoft\bin\Debug\CreativaSL.Dll.StephSoft.Datos.dll
-C:\Users\CID FARES\Source\Repos\StephSoftV2\StephSoft\bin\Debug\CreativaSL.Dll.StephSoft.Global.dll
-C:\Users\CID FARES\Source\Repos\StephSoftV2\StephSoft\bin\Debug\CreativaSL.Dll.StephSoft.Negocio.dll
-C:\Users\CID FARES\Source\Repos\StephSoftV2\StephSoft\bin\Debug\Microsoft.ReportViewer.Common.dll
-C:\Users\CID FARES\Source\Repos\StephSoftV2\StephSoft\bin\Debug\Microsoft.ReportViewer.DataVisualization.dll
-C:\Users\CID FARES\Source\Repos\StephSoftV2\StephSoft\bin\Debug\Microsoft.ReportViewer.Design.dll
-C:\Users\CID FARES\Source\Repos\StephSoftV2\StephSoft\bin\Debug\Microsoft.ReportViewer.ProcessingObjectModel.dll
-C:\Users\CID FARES\Source\Repos\StephSoftV2\StephSoft\bin\Debug\Microsoft.ReportViewer.WinForms.dll
-C:\Users\CID FARES\Source\Repos\StephSoftV2\StephSoft\bin\Debug\Microsoft.SqlServer.Types.dll
-C:\Users\CID FARES\Source\Repos\StephSoftV2\StephSoft\bin\Debug\Microsoft.ApplicationBlocks.Data.dll
-C:\Users\CID FARES\Source\Repos\StephSoftV2\StephSoft\bin\Debug\EnvDTE.dll
-C:\Users\CID FARES\Source\Repos\StephSoftV2\StephSoft\bin\Debug\Microsoft.VisualStudio.Shell.Interop.dll
-C:\Users\CID FARES\Source\Repos\StephSoftV2\StephSoft\bin\Debug\Microsoft.VisualStudio.Shell.Interop.8.0.dll
-C:\Users\CID FARES\Source\Repos\StephSoftV2\StephSoft\bin\Debug\stdole.dll
-C:\Users\CID FARES\Source\Repos\StephSoftV2\StephSoft\bin\Debug\Microsoft.VisualStudio.OLE.Interop.dll
-C:\Users\CID FARES\Source\Repos\StephSoftV2\StephSoft\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.dll
-C:\Users\CID FARES\Source\Repos\StephSoftV2\StephSoft\bin\Debug\Microsoft.VisualStudio.VSHelp.dll
-C:\Users\CID FARES\Source\Repos\StephSoftV2\StephSoft\bin\Debug\Microsoft.VisualStudio.Shell.Interop.9.0.dll
-C:\Users\CID FARES\Source\Repos\StephSoftV2\StephSoft\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.8.0.dll
-C:\Users\CID FARES\Source\Repos\StephSoftV2\StephSoft\bin\Debug\Microsoft.VisualStudio.ProjectAggregator.dll
-C:\Users\CID FARES\Source\Repos\StephSoftV2\StephSoft\bin\Debug\Microsoft.VisualStudio.ComponentModelHost.dll
-C:\Users\CID FARES\Source\Repos\StephSoftV2\StephSoft\bin\Debug\Microsoft.VisualStudio.TemplateWizardInterface.dll
-C:\Users\CID FARES\Source\Repos\StephSoftV2\StephSoft\bin\Debug\Microsoft.VisualStudio.Debugger.InteropA.dll
-C:\Users\CID FARES\Source\Repos\StephSoftV2\StephSoft\bin\Debug\EnvDTE80.dll
-C:\Users\CID FARES\Source\Repos\StephSoftV2\StephSoft\bin\Debug\Microsoft.VisualStudio.Data.Services.dll
-C:\Users\CID FARES\Source\Repos\StephSoftV2\StephSoft\bin\Debug\VSLangProj.dll
-C:\Users\CID FARES\Source\Repos\StephSoftV2\StephSoft\bin\Debug\Microsoft.VisualStudio.Shell.Interop.11.0.dll
-C:\Users\CID FARES\Source\Repos\StephSoftV2\StephSoft\bin\Debug\Microsoft.VisualStudio.Data.Core.dll
-C:\Users\CID FARES\Source\Repos\StephSoftV2\StephSoft\bin\Debug\Microsoft.VisualStudio.Shell.Interop.10.0.dll
-C:\Users\CID FARES\Source\Repos\StephSoftV2\StephSoft\bin\Debug\VSLangProj80.dll
-C:\Users\CID FARES\Source\Repos\StephSoftV2\StephSoft\bin\Debug\Microsoft.VisualStudio.ManagedInterfaces.dll
-C:\Users\CID FARES\Source\Repos\StephSoftV2\StephSoft\bin\Debug\Microsoft.VisualStudio.Debugger.Interop.11.0.dll
-C:\Users\CID FARES\Source\Repos\StephSoftV2\StephSoft\bin\Debug\Newtonsoft.Json.dll
-C:\Users\CID FARES\Source\Repos\StephSoftV2\StephSoft\bin\Debug\Microsoft.VisualStudio.GraphModel.dll
-C:\Users\CID FARES\Source\Repos\StephSoftV2\StephSoft\bin\Debug\Microsoft.MSXML.dll
-C:\Users\CID FARES\Source\Repos\StephSoftV2\StephSoft\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.10.0.dll
-C:\Users\CID FARES\Source\Repos\StephSoftV2\StephSoft\bin\Debug\VSLangProj2.dll
-C:\Users\CID FARES\Source\Repos\StephSoftV2\StephSoft\bin\Debug\CreativaSL.Dll.StephSoft.Datos.pdb
-C:\Users\CID FARES\Source\Repos\StephSoftV2\StephSoft\bin\Debug\CreativaSL.Dll.StephSoft.Global.pdb
-C:\Users\CID FARES\Source\Repos\StephSoftV2\StephSoft\bin\Debug\CreativaSL.Dll.StephSoft.Negocio.pdb
-C:\Users\CID FARES\Source\Repos\StephSoftV2\StephSoft\bin\Debug\Microsoft.VisualStudio.TemplateWizardInterface.xml
-C:\Users\CID FARES\Source\Repos\StephSoftV2\StephSoft\bin\Debug\de\Microsoft.ReportViewer.Common.resources.dll
-C:\Users\CID FARES\Source\Repos\StephSoftV2\StephSoft\bin\Debug\es\Microsoft.ReportViewer.Common.resources.dll
-C:\Users\CID FARES\Source\Repos\StephSoftV2\StephSoft\bin\Debug\fr\Microsoft.ReportViewer.Common.resources.dll
-C:\Users\CID FARES\Source\Repos\StephSoftV2\StephSoft\bin\Debug\it\Microsoft.ReportViewer.Common.resources.dll
-C:\Users\CID FARES\Source\Repos\StephSoftV2\StephSoft\bin\Debug\ja\Microsoft.ReportViewer.Common.resources.dll
-C:\Users\CID FARES\Source\Repos\StephSoftV2\StephSoft\bin\Debug\ko\Microsoft.ReportViewer.Common.resources.dll
-C:\Users\CID FARES\Source\Repos\StephSoftV2\StephSoft\bin\Debug\pt\Microsoft.ReportViewer.Common.resources.dll
-C:\Users\CID FARES\Source\Repos\StephSoftV2\StephSoft\bin\Debug\ru\Microsoft.ReportViewer.Common.resources.dll
-C:\Users\CID FARES\Source\Repos\StephSoftV2\StephSoft\bin\Debug\zh-CHS\Microsoft.ReportViewer.Common.resources.dll
-C:\Users\CID FARES\Source\Repos\StephSoftV2\StephSoft\bin\Debug\zh-CHT\Microsoft.ReportViewer.Common.resources.dll
-C:\Users\CID FARES\Source\Repos\StephSoftV2\StephSoft\bin\Debug\de\Microsoft.ReportViewer.DataVisualization.resources.dll
-C:\Users\CID FARES\Source\Repos\StephSoftV2\StephSoft\bin\Debug\es\Microsoft.ReportViewer.DataVisualization.resources.dll
-C:\Users\CID FARES\Source\Repos\StephSoftV2\StephSoft\bin\Debug\fr\Microsoft.ReportViewer.DataVisualization.resources.dll
-C:\Users\CID FARES\Source\Repos\StephSoftV2\StephSoft\bin\Debug\it\Microsoft.ReportViewer.DataVisualization.resources.dll
-C:\Users\CID FARES\Source\Repos\StephSoftV2\StephSoft\bin\Debug\ja\Microsoft.ReportViewer.DataVisualization.resources.dll
-C:\Users\CID FARES\Source\Repos\StephSoftV2\StephSoft\bin\Debug\ko\Microsoft.ReportViewer.DataVisualization.resources.dll
-C:\Users\CID FARES\Source\Repos\StephSoftV2\StephSoft\bin\Debug\pt\Microsoft.ReportViewer.DataVisualization.resources.dll
-C:\Users\CID FARES\Source\Repos\StephSoftV2\StephSoft\bin\Debug\ru\Microsoft.ReportViewer.DataVisualization.resources.dll
-C:\Users\CID FARES\Source\Repos\StephSoftV2\StephSoft\bin\Debug\zh-CHS\Microsoft.ReportViewer.DataVisualization.resources.dll
-C:\Users\CID FARES\Source\Repos\StephSoftV2\StephSoft\bin\Debug\zh-CHT\Microsoft.ReportViewer.DataVisualization.resources.dll
-C:\Users\CID FARES\Source\Repos\StephSoftV2\StephSoft\bin\Debug\de\Microsoft.ReportViewer.Design.resources.dll
-C:\Users\CID FARES\Source\Repos\StephSoftV2\StephSoft\bin\Debug\es\Microsoft.ReportViewer.Design.resources.dll
-C:\Users\CID FARES\Source\Repos\StephSoftV2\StephSoft\bin\Debug\fr\Microsoft.ReportViewer.Design.resources.dll
-C:\Users\CID FARES\Source\Repos\StephSoftV2\StephSoft\bin\Debug\it\Microsoft.ReportViewer.Design.resources.dll
-C:\Users\CID FARES\Source\Repos\StephSoftV2\StephSoft\bin\Debug\ja\Microsoft.ReportViewer.Design.resources.dll
-C:\Users\CID FARES\Source\Repos\StephSoftV2\StephSoft\bin\Debug\ko\Microsoft.ReportViewer.Design.resources.dll
-C:\Users\CID FARES\Source\Repos\StephSoftV2\StephSoft\bin\Debug\pt\Microsoft.ReportViewer.Design.resources.dll
-C:\Users\CID FARES\Source\Repos\StephSoftV2\StephSoft\bin\Debug\ru\Microsoft.ReportViewer.Design.resources.dll
-C:\Users\CID FARES\Source\Repos\StephSoftV2\StephSoft\bin\Debug\zh-CHS\Microsoft.ReportViewer.Design.resources.dll
-C:\Users\CID FARES\Source\Repos\StephSoftV2\StephSoft\bin\Debug\zh-CHT\Microsoft.ReportViewer.Design.resources.dll
-C:\Users\CID FARES\Source\Repos\StephSoftV2\StephSoft\bin\Debug\de\Microsoft.ReportViewer.WinForms.resources.dll
-C:\Users\CID FARES\Source\Repos\StephSoftV2\StephSoft\bin\Debug\es\Microsoft.ReportViewer.WinForms.resources.dll
-C:\Users\CID FARES\Source\Repos\StephSoftV2\StephSoft\bin\Debug\fr\Microsoft.ReportViewer.WinForms.resources.dll
-C:\Users\CID FARES\Source\Repos\StephSoftV2\StephSoft\bin\Debug\it\Microsoft.ReportViewer.WinForms.resources.dll
-C:\Users\CID FARES\Source\Repos\StephSoftV2\StephSoft\bin\Debug\ja\Microsoft.ReportViewer.WinForms.resources.dll
-C:\Users\CID FARES\Source\Repos\StephSoftV2\StephSoft\bin\Debug\ko\Microsoft.ReportViewer.WinForms.resources.dll
-C:\Users\CID FARES\Source\Repos\StephSoftV2\StephSoft\bin\Debug\pt\Microsoft.ReportViewer.WinForms.resources.dll
-C:\Users\CID FARES\Source\Repos\StephSoftV2\StephSoft\bin\Debug\ru\Microsoft.ReportViewer.WinForms.resources.dll
-C:\Users\CID FARES\Source\Repos\StephSoftV2\StephSoft\bin\Debug\zh-CHS\Microsoft.ReportViewer.WinForms.resources.dll
-C:\Users\CID FARES\Source\Repos\StephSoftV2\StephSoft\bin\Debug\zh-CHT\Microsoft.ReportViewer.WinForms.resources.dll
-C:\Users\CID FARES\Source\Repos\StephSoftV2\StephSoft\bin\Debug\es\Microsoft.VisualStudio.Data.Services.resources.dll
-C:\Users\CID FARES\Source\Repos\StephSoftV2\StephSoft\bin\Debug\es\Microsoft.VisualStudio.Data.Core.resources.dll
-C:\Users\CID FARES\Source\Repos\StephSoftV2\StephSoft\obj\Debug\StepthSoft.csprojAssemblyReference.cache
-C:\Users\CID FARES\Source\Repos\StephSoftV2\StephSoft\obj\Debug\StepthSoft.csproj.ResolveComReference.cache
-C:\Users\CID FARES\Source\Repos\StephSoftV2\StephSoft\obj\Debug\StephSoft.Form1.resources
-C:\Users\CID FARES\Source\Repos\StephSoftV2\StephSoft\obj\Debug\StephSoft.frmAsignarHorario.resources
-C:\Users\CID FARES\Source\Repos\StephSoftV2\StephSoft\obj\Debug\StephSoft.frmAutorizacion.resources
-C:\Users\CID FARES\Source\Repos\StephSoftV2\StephSoft\obj\Debug\StephSoft.frmBusquedaVentas.resources
-C:\Users\CID FARES\Source\Repos\StephSoftV2\StephSoft\obj\Debug\StephSoft.frmCancelar.resources
-C:\Users\CID FARES\Source\Repos\StephSoftV2\StephSoft\obj\Debug\StephSoft.frmCancelarTicket.resources
-C:\Users\CID FARES\Source\Repos\StephSoftV2\StephSoft\obj\Debug\StephSoft.frmCatalogoWeb.resources
-C:\Users\CID FARES\Source\Repos\StephSoftV2\StephSoft\obj\Debug\StephSoft.frmCatCiclos.resources
-C:\Users\CID FARES\Source\Repos\StephSoftV2\StephSoft\obj\Debug\StephSoft.frmCatEmpleado.resources
-C:\Users\CID FARES\Source\Repos\StephSoftV2\StephSoft\obj\Debug\StephSoft.frmCierreCaja.resources
-C:\Users\CID FARES\Source\Repos\StephSoftV2\StephSoft\obj\Debug\StephSoft.frmClavesXIDEmpleado.resources
-C:\Users\CID FARES\Source\Repos\StephSoftV2\StephSoft\obj\Debug\StephSoft.frmCobro.resources
-C:\Users\CID FARES\Source\Repos\StephSoftV2\StephSoft\obj\Debug\StephSoft.frmConcluirPago.resources
-C:\Users\CID FARES\Source\Repos\StephSoftV2\StephSoft\obj\Debug\StephSoft.frmConfiguracionLocal.resources
-C:\Users\CID FARES\Source\Repos\StephSoftV2\StephSoft\obj\Debug\StephSoft.frmCuentaEmpleado.resources
-C:\Users\CID FARES\Source\Repos\StephSoftV2\StephSoft\obj\Debug\StephSoft.frmDatosServicio.resources
-C:\Users\CID FARES\Source\Repos\StephSoftV2\StephSoft\obj\Debug\StephSoft.frmDatosTarjeta.resources
-C:\Users\CID FARES\Source\Repos\StephSoftV2\StephSoft\obj\Debug\StephSoft.frmDepositosRetirosCaja.resources
-C:\Users\CID FARES\Source\Repos\StephSoftV2\StephSoft\obj\Debug\StephSoft.frmAperturaCaja.resources
-C:\Users\CID FARES\Source\Repos\StephSoftV2\StephSoft\obj\Debug\StephSoft.frmAsignarCaja.resources
-C:\Users\CID FARES\Source\Repos\StephSoftV2\StephSoft\obj\Debug\StephSoft.frmAtenderCita.resources
-C:\Users\CID FARES\Source\Repos\StephSoftV2\StephSoft\obj\Debug\StephSoft.frmCancelarCita.resources
-C:\Users\CID FARES\Source\Repos\StephSoftV2\StephSoft\obj\Debug\StephSoft.frmCatClientes.resources
-C:\Users\CID FARES\Source\Repos\StephSoftV2\StephSoft\obj\Debug\StephSoft.frmCatEmpleadoHuella.resources
-C:\Users\CID FARES\Source\Repos\StephSoftV2\StephSoft\obj\Debug\StephSoft.frmChecador.resources
-C:\Users\CID FARES\Source\Repos\StephSoftV2\StephSoft\obj\Debug\StephSoft.frmChecarEntradaSalida.resources
-C:\Users\CID FARES\Source\Repos\StephSoftV2\StephSoft\obj\Debug\StephSoft.frmCitas.resources
-C:\Users\CID FARES\Source\Repos\StephSoftV2\StephSoft\obj\Debug\StephSoft.frmDescontarExistencia.resources
-C:\Users\CID FARES\Source\Repos\StephSoftV2\StephSoft\obj\Debug\StephSoft.frmDetalleCita.resources
-C:\Users\CID FARES\Source\Repos\StephSoftV2\StephSoft\obj\Debug\StephSoft.frmElegirProducto.resources
-C:\Users\CID FARES\Source\Repos\StephSoftV2\StephSoft\obj\Debug\StephSoft.frmElegirProductoBusq.resources
-C:\Users\CID FARES\Source\Repos\StephSoftV2\StephSoft\obj\Debug\StephSoft.frmElegirProveedor.resources
-C:\Users\CID FARES\Source\Repos\StephSoftV2\StephSoft\obj\Debug\StephSoft.frmElegirServicioCita.resources
-C:\Users\CID FARES\Source\Repos\StephSoftV2\StephSoft\obj\Debug\StephSoft.frmElegirTarjetaMonedero.resources
-C:\Users\CID FARES\Source\Repos\StephSoftV2\StephSoft\obj\Debug\StephSoft.frmElegirTurnoCombo.resources
-C:\Users\CID FARES\Source\Repos\StephSoftV2\StephSoft\obj\Debug\StephSoft.frmEntregaMaterial.resources
-C:\Users\CID FARES\Source\Repos\StephSoftV2\StephSoft\obj\Debug\StephSoft.frmGarantias.resources
-C:\Users\CID FARES\Source\Repos\StephSoftV2\StephSoft\obj\Debug\StephSoft.frmGarantiasBusqVentas.resources
-C:\Users\CID FARES\Source\Repos\StephSoftV2\StephSoft\obj\Debug\StephSoft.frmGastosXSucursal.resources
-C:\Users\CID FARES\Source\Repos\StephSoftV2\StephSoft\obj\Debug\StephSoft.frmHistCita.resources
-C:\Users\CID FARES\Source\Repos\StephSoftV2\StephSoft\obj\Debug\StephSoft.frmHistCompras.resources
-C:\Users\CID FARES\Source\Repos\StephSoftV2\StephSoft\obj\Debug\StephSoft.frmHistSucursales.resources
-C:\Users\CID FARES\Source\Repos\StephSoftV2\StephSoft\obj\Debug\StephSoft.frmHorarioEmpleado.resources
-C:\Users\CID FARES\Source\Repos\StephSoftV2\StephSoft\obj\Debug\StephSoft.frmInicial.resources
-C:\Users\CID FARES\Source\Repos\StephSoftV2\StephSoft\obj\Debug\StephSoft.frmInicializarClaves.resources
-C:\Users\CID FARES\Source\Repos\StephSoftV2\StephSoft\obj\Debug\StephSoft.frmIniciarServicio.resources
-C:\Users\CID FARES\Source\Repos\StephSoftV2\StephSoft\obj\Debug\StephSoft.frmInventario.resources
-C:\Users\CID FARES\Source\Repos\StephSoftV2\StephSoft\obj\Debug\StephSoft.frmJustificaciones.resources
-C:\Users\CID FARES\Source\Repos\StephSoftV2\StephSoft\obj\Debug\StephSoft.frmLogin.resources
-C:\Users\CID FARES\Source\Repos\StephSoftV2\StephSoft\obj\Debug\StephSoft.frmMenuInicio.resources
-C:\Users\CID FARES\Source\Repos\StephSoftV2\StephSoft\obj\Debug\StephSoft.frmMobiliarioRecepcion.resources
-C:\Users\CID FARES\Source\Repos\StephSoftV2\StephSoft\obj\Debug\StephSoft.frmMobiliarioRecibir.resources
-C:\Users\CID FARES\Source\Repos\StephSoftV2\StephSoft\obj\Debug\StephSoft.frmNuevaCita.resources
-C:\Users\CID FARES\Source\Repos\StephSoftV2\StephSoft\obj\Debug\StephSoft.frmNuevaClaveProduccion.resources
-C:\Users\CID FARES\Source\Repos\StephSoftV2\StephSoft\obj\Debug\StephSoft.frmNuevaGarantia.resources
-C:\Users\CID FARES\Source\Repos\StephSoftV2\StephSoft\obj\Debug\StephSoft.frmNuevaImagenCatWeb.resources
-C:\Users\CID FARES\Source\Repos\StephSoftV2\StephSoft\obj\Debug\StephSoft.frmNuevaPromocionVenta.resources
-C:\Users\CID FARES\Source\Repos\StephSoftV2\StephSoft\obj\Debug\StephSoft.frmNuevoCiclo.resources
-C:\Users\CID FARES\Source\Repos\StephSoftV2\StephSoft\obj\Debug\StephSoft.frmNuevoCliente.resources
-C:\Users\CID FARES\Source\Repos\StephSoftV2\StephSoft\obj\Debug\StephSoft.frmNuevoGasto.resources
-C:\Users\CID FARES\Source\Repos\StephSoftV2\StephSoft\obj\Debug\StephSoft.frmNuevoPedido.resources
-C:\Users\CID FARES\Source\Repos\StephSoftV2\StephSoft\obj\Debug\StephSoft.frmNuevoPedidoProducto.resources
-C:\Users\CID FARES\Source\Repos\StephSoftV2\StephSoft\obj\Debug\StephSoft.frmNuevoPedidoReemplazoProducto.resources
-C:\Users\CID FARES\Source\Repos\StephSoftV2\StephSoft\obj\Debug\StephSoft.frmNuevoProducto.resources
-C:\Users\CID FARES\Source\Repos\StephSoftV2\StephSoft\obj\Debug\StephSoft.frmNuevoRegistroAsistencia.resources
-C:\Users\CID FARES\Source\Repos\StephSoftV2\StephSoft\obj\Debug\StephSoft.frmNuevoServicio.resources
-C:\Users\CID FARES\Source\Repos\StephSoftV2\StephSoft\obj\Debug\StephSoft.frmNuevoServicioTicket.resources
-C:\Users\CID FARES\Source\Repos\StephSoftV2\StephSoft\obj\Debug\StephSoft.frmNuevoTicket.resources
-C:\Users\CID FARES\Source\Repos\StephSoftV2\StephSoft\obj\Debug\StephSoft.frmNumeroTarjeta.resources
-C:\Users\CID FARES\Source\Repos\StephSoftV2\StephSoft\obj\Debug\StephSoft.frmPedidoDetalle.resources
-C:\Users\CID FARES\Source\Repos\StephSoftV2\StephSoft\obj\Debug\StephSoft.frmPedidoRecibir.resources
-C:\Users\CID FARES\Source\Repos\StephSoftV2\StephSoft\obj\Debug\StephSoft.frmPedidos.resources
-C:\Users\CID FARES\Source\Repos\StephSoftV2\StephSoft\obj\Debug\StephSoft.frmPedidosRecepcion.resources
-C:\Users\CID FARES\Source\Repos\StephSoftV2\StephSoft\obj\Debug\StephSoft.frmPefilUsuario.resources
-C:\Users\CID FARES\Source\Repos\StephSoftV2\StephSoft\obj\Debug\StephSoft.frmRespaldoCobro.resources
-C:\Users\CID FARES\Source\Repos\StephSoftV2\StephSoft\obj\Debug\StephSoft.frmResumenVenta.resources
-C:\Users\CID FARES\Source\Repos\StephSoftV2\StephSoft\obj\Debug\StephSoft.frmSeleccionarCliente.resources
-C:\Users\CID FARES\Source\Repos\StephSoftV2\StephSoft\obj\Debug\StephSoft.frmSeleccionarProducto.resources
-C:\Users\CID FARES\Source\Repos\StephSoftV2\StephSoft\obj\Debug\StephSoft.frmTicketDetalleProductosXServicio.resources
-C:\Users\CID FARES\Source\Repos\StephSoftV2\StephSoft\obj\Debug\StephSoft.frmVentaDirecta.resources
-C:\Users\CID FARES\Source\Repos\StephSoftV2\StephSoft\obj\Debug\StephSoft.frmVentaServicios.resources
-C:\Users\CID FARES\Source\Repos\StephSoftV2\StephSoft\obj\Debug\StephSoft.frmVerDetalleCiclo.resources
-C:\Users\CID FARES\Source\Repos\StephSoftV2\StephSoft\obj\Debug\StephSoft.frmVerReporte.resources
-C:\Users\CID FARES\Source\Repos\StephSoftV2\StephSoft\obj\Debug\StephSoft.Properties.Resources.resources
-C:\Users\CID FARES\Source\Repos\StephSoftV2\StephSoft\obj\Debug\StepthSoft.csproj.GenerateResource.cache
-C:\Users\CID FARES\Source\Repos\StephSoftV2\StephSoft\obj\Debug\StepthSoft.csproj.CoreCompileInputs.cache
-C:\Users\CID FARES\Source\Repos\StephSoftV2\StephSoft\obj\Debug\StepthSoft.csproj.CopyComplete
-C:\Users\CID FARES\Source\Repos\StephSoftV2\StephSoft\obj\Debug\StephSoft.exe
-C:\Users\CID FARES\Source\Repos\StephSoftV2\StephSoft\obj\Debug\StephSoft.pdb
+C:\Users\Creativa-PC\Documents\Visual Studio 2017\Project\StephSoft\StephSoft\bin\Debug\SqlServerTypes\x64\msvcr120.dll
+C:\Users\Creativa-PC\Documents\Visual Studio 2017\Project\StephSoft\StephSoft\bin\Debug\SqlServerTypes\x64\SqlServerSpatial140.dll
+C:\Users\Creativa-PC\Documents\Visual Studio 2017\Project\StephSoft\StephSoft\bin\Debug\SqlServerTypes\x86\msvcr120.dll
+C:\Users\Creativa-PC\Documents\Visual Studio 2017\Project\StephSoft\StephSoft\bin\Debug\SqlServerTypes\x86\SqlServerSpatial140.dll
+C:\Users\Creativa-PC\Documents\Visual Studio 2017\Project\StephSoft\StephSoft\bin\Debug\StephSoft.exe.config
+C:\Users\Creativa-PC\Documents\Visual Studio 2017\Project\StephSoft\StephSoft\bin\Debug\StephSoft.exe
+C:\Users\Creativa-PC\Documents\Visual Studio 2017\Project\StephSoft\StephSoft\bin\Debug\StephSoft.pdb
+C:\Users\Creativa-PC\Documents\Visual Studio 2017\Project\StephSoft\StephSoft\bin\Debug\CreativaSL.Dll.StephSoft.Datos.dll
+C:\Users\Creativa-PC\Documents\Visual Studio 2017\Project\StephSoft\StephSoft\bin\Debug\CreativaSL.Dll.StephSoft.Global.dll
+C:\Users\Creativa-PC\Documents\Visual Studio 2017\Project\StephSoft\StephSoft\bin\Debug\CreativaSL.Dll.StephSoft.Negocio.dll
+C:\Users\Creativa-PC\Documents\Visual Studio 2017\Project\StephSoft\StephSoft\bin\Debug\Microsoft.ReportViewer.Common.dll
+C:\Users\Creativa-PC\Documents\Visual Studio 2017\Project\StephSoft\StephSoft\bin\Debug\Microsoft.ReportViewer.DataVisualization.dll
+C:\Users\Creativa-PC\Documents\Visual Studio 2017\Project\StephSoft\StephSoft\bin\Debug\Microsoft.ReportViewer.Design.dll
+C:\Users\Creativa-PC\Documents\Visual Studio 2017\Project\StephSoft\StephSoft\bin\Debug\Microsoft.ReportViewer.ProcessingObjectModel.dll
+C:\Users\Creativa-PC\Documents\Visual Studio 2017\Project\StephSoft\StephSoft\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+C:\Users\Creativa-PC\Documents\Visual Studio 2017\Project\StephSoft\StephSoft\bin\Debug\Microsoft.SqlServer.Types.dll
+C:\Users\Creativa-PC\Documents\Visual Studio 2017\Project\StephSoft\StephSoft\bin\Debug\Microsoft.ApplicationBlocks.Data.dll
+C:\Users\Creativa-PC\Documents\Visual Studio 2017\Project\StephSoft\StephSoft\bin\Debug\EnvDTE.dll
+C:\Users\Creativa-PC\Documents\Visual Studio 2017\Project\StephSoft\StephSoft\bin\Debug\Microsoft.VisualStudio.Shell.Interop.dll
+C:\Users\Creativa-PC\Documents\Visual Studio 2017\Project\StephSoft\StephSoft\bin\Debug\Microsoft.VisualStudio.Shell.Interop.8.0.dll
+C:\Users\Creativa-PC\Documents\Visual Studio 2017\Project\StephSoft\StephSoft\bin\Debug\stdole.dll
+C:\Users\Creativa-PC\Documents\Visual Studio 2017\Project\StephSoft\StephSoft\bin\Debug\Microsoft.VisualStudio.OLE.Interop.dll
+C:\Users\Creativa-PC\Documents\Visual Studio 2017\Project\StephSoft\StephSoft\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.dll
+C:\Users\Creativa-PC\Documents\Visual Studio 2017\Project\StephSoft\StephSoft\bin\Debug\Microsoft.VisualStudio.VSHelp.dll
+C:\Users\Creativa-PC\Documents\Visual Studio 2017\Project\StephSoft\StephSoft\bin\Debug\Microsoft.VisualStudio.Shell.Interop.9.0.dll
+C:\Users\Creativa-PC\Documents\Visual Studio 2017\Project\StephSoft\StephSoft\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.8.0.dll
+C:\Users\Creativa-PC\Documents\Visual Studio 2017\Project\StephSoft\StephSoft\bin\Debug\Microsoft.VisualStudio.ProjectAggregator.dll
+C:\Users\Creativa-PC\Documents\Visual Studio 2017\Project\StephSoft\StephSoft\bin\Debug\Microsoft.VisualStudio.ComponentModelHost.dll
+C:\Users\Creativa-PC\Documents\Visual Studio 2017\Project\StephSoft\StephSoft\bin\Debug\Microsoft.VisualStudio.TemplateWizardInterface.dll
+C:\Users\Creativa-PC\Documents\Visual Studio 2017\Project\StephSoft\StephSoft\bin\Debug\Microsoft.VisualStudio.Debugger.InteropA.dll
+C:\Users\Creativa-PC\Documents\Visual Studio 2017\Project\StephSoft\StephSoft\bin\Debug\EnvDTE80.dll
+C:\Users\Creativa-PC\Documents\Visual Studio 2017\Project\StephSoft\StephSoft\bin\Debug\Microsoft.VisualStudio.Data.Services.dll
+C:\Users\Creativa-PC\Documents\Visual Studio 2017\Project\StephSoft\StephSoft\bin\Debug\VSLangProj.dll
+C:\Users\Creativa-PC\Documents\Visual Studio 2017\Project\StephSoft\StephSoft\bin\Debug\Microsoft.VisualStudio.Shell.Interop.11.0.dll
+C:\Users\Creativa-PC\Documents\Visual Studio 2017\Project\StephSoft\StephSoft\bin\Debug\Microsoft.VisualStudio.Data.Core.dll
+C:\Users\Creativa-PC\Documents\Visual Studio 2017\Project\StephSoft\StephSoft\bin\Debug\Microsoft.VisualStudio.Shell.Interop.10.0.dll
+C:\Users\Creativa-PC\Documents\Visual Studio 2017\Project\StephSoft\StephSoft\bin\Debug\VSLangProj80.dll
+C:\Users\Creativa-PC\Documents\Visual Studio 2017\Project\StephSoft\StephSoft\bin\Debug\Microsoft.VisualStudio.ManagedInterfaces.dll
+C:\Users\Creativa-PC\Documents\Visual Studio 2017\Project\StephSoft\StephSoft\bin\Debug\Microsoft.VisualStudio.Debugger.Interop.11.0.dll
+C:\Users\Creativa-PC\Documents\Visual Studio 2017\Project\StephSoft\StephSoft\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Creativa-PC\Documents\Visual Studio 2017\Project\StephSoft\StephSoft\bin\Debug\Microsoft.VisualStudio.GraphModel.dll
+C:\Users\Creativa-PC\Documents\Visual Studio 2017\Project\StephSoft\StephSoft\bin\Debug\Microsoft.MSXML.dll
+C:\Users\Creativa-PC\Documents\Visual Studio 2017\Project\StephSoft\StephSoft\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.10.0.dll
+C:\Users\Creativa-PC\Documents\Visual Studio 2017\Project\StephSoft\StephSoft\bin\Debug\VSLangProj2.dll
+C:\Users\Creativa-PC\Documents\Visual Studio 2017\Project\StephSoft\StephSoft\bin\Debug\CreativaSL.Dll.StephSoft.Datos.pdb
+C:\Users\Creativa-PC\Documents\Visual Studio 2017\Project\StephSoft\StephSoft\bin\Debug\CreativaSL.Dll.StephSoft.Global.pdb
+C:\Users\Creativa-PC\Documents\Visual Studio 2017\Project\StephSoft\StephSoft\bin\Debug\CreativaSL.Dll.StephSoft.Negocio.pdb
+C:\Users\Creativa-PC\Documents\Visual Studio 2017\Project\StephSoft\StephSoft\bin\Debug\Microsoft.VisualStudio.TemplateWizardInterface.xml
+C:\Users\Creativa-PC\Documents\Visual Studio 2017\Project\StephSoft\StephSoft\bin\Debug\de\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Creativa-PC\Documents\Visual Studio 2017\Project\StephSoft\StephSoft\bin\Debug\es\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Creativa-PC\Documents\Visual Studio 2017\Project\StephSoft\StephSoft\bin\Debug\fr\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Creativa-PC\Documents\Visual Studio 2017\Project\StephSoft\StephSoft\bin\Debug\it\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Creativa-PC\Documents\Visual Studio 2017\Project\StephSoft\StephSoft\bin\Debug\ja\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Creativa-PC\Documents\Visual Studio 2017\Project\StephSoft\StephSoft\bin\Debug\ko\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Creativa-PC\Documents\Visual Studio 2017\Project\StephSoft\StephSoft\bin\Debug\pt\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Creativa-PC\Documents\Visual Studio 2017\Project\StephSoft\StephSoft\bin\Debug\ru\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Creativa-PC\Documents\Visual Studio 2017\Project\StephSoft\StephSoft\bin\Debug\zh-CHS\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Creativa-PC\Documents\Visual Studio 2017\Project\StephSoft\StephSoft\bin\Debug\zh-CHT\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Creativa-PC\Documents\Visual Studio 2017\Project\StephSoft\StephSoft\bin\Debug\de\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Creativa-PC\Documents\Visual Studio 2017\Project\StephSoft\StephSoft\bin\Debug\es\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Creativa-PC\Documents\Visual Studio 2017\Project\StephSoft\StephSoft\bin\Debug\fr\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Creativa-PC\Documents\Visual Studio 2017\Project\StephSoft\StephSoft\bin\Debug\it\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Creativa-PC\Documents\Visual Studio 2017\Project\StephSoft\StephSoft\bin\Debug\ja\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Creativa-PC\Documents\Visual Studio 2017\Project\StephSoft\StephSoft\bin\Debug\ko\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Creativa-PC\Documents\Visual Studio 2017\Project\StephSoft\StephSoft\bin\Debug\pt\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Creativa-PC\Documents\Visual Studio 2017\Project\StephSoft\StephSoft\bin\Debug\ru\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Creativa-PC\Documents\Visual Studio 2017\Project\StephSoft\StephSoft\bin\Debug\zh-CHS\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Creativa-PC\Documents\Visual Studio 2017\Project\StephSoft\StephSoft\bin\Debug\zh-CHT\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Creativa-PC\Documents\Visual Studio 2017\Project\StephSoft\StephSoft\bin\Debug\de\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Creativa-PC\Documents\Visual Studio 2017\Project\StephSoft\StephSoft\bin\Debug\es\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Creativa-PC\Documents\Visual Studio 2017\Project\StephSoft\StephSoft\bin\Debug\fr\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Creativa-PC\Documents\Visual Studio 2017\Project\StephSoft\StephSoft\bin\Debug\it\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Creativa-PC\Documents\Visual Studio 2017\Project\StephSoft\StephSoft\bin\Debug\ja\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Creativa-PC\Documents\Visual Studio 2017\Project\StephSoft\StephSoft\bin\Debug\ko\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Creativa-PC\Documents\Visual Studio 2017\Project\StephSoft\StephSoft\bin\Debug\pt\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Creativa-PC\Documents\Visual Studio 2017\Project\StephSoft\StephSoft\bin\Debug\ru\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Creativa-PC\Documents\Visual Studio 2017\Project\StephSoft\StephSoft\bin\Debug\zh-CHS\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Creativa-PC\Documents\Visual Studio 2017\Project\StephSoft\StephSoft\bin\Debug\zh-CHT\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Creativa-PC\Documents\Visual Studio 2017\Project\StephSoft\StephSoft\bin\Debug\de\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Creativa-PC\Documents\Visual Studio 2017\Project\StephSoft\StephSoft\bin\Debug\es\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Creativa-PC\Documents\Visual Studio 2017\Project\StephSoft\StephSoft\bin\Debug\fr\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Creativa-PC\Documents\Visual Studio 2017\Project\StephSoft\StephSoft\bin\Debug\it\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Creativa-PC\Documents\Visual Studio 2017\Project\StephSoft\StephSoft\bin\Debug\ja\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Creativa-PC\Documents\Visual Studio 2017\Project\StephSoft\StephSoft\bin\Debug\ko\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Creativa-PC\Documents\Visual Studio 2017\Project\StephSoft\StephSoft\bin\Debug\pt\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Creativa-PC\Documents\Visual Studio 2017\Project\StephSoft\StephSoft\bin\Debug\ru\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Creativa-PC\Documents\Visual Studio 2017\Project\StephSoft\StephSoft\bin\Debug\zh-CHS\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Creativa-PC\Documents\Visual Studio 2017\Project\StephSoft\StephSoft\bin\Debug\zh-CHT\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Creativa-PC\Documents\Visual Studio 2017\Project\StephSoft\StephSoft\bin\Debug\es\Microsoft.VisualStudio.Data.Services.resources.dll
+C:\Users\Creativa-PC\Documents\Visual Studio 2017\Project\StephSoft\StephSoft\bin\Debug\es\Microsoft.VisualStudio.Data.Core.resources.dll
+C:\Users\Creativa-PC\Documents\Visual Studio 2017\Project\StephSoft\StephSoft\obj\Debug\StepthSoft.csprojAssemblyReference.cache
+C:\Users\Creativa-PC\Documents\Visual Studio 2017\Project\StephSoft\StephSoft\obj\Debug\StepthSoft.csproj.ResolveComReference.cache
+C:\Users\Creativa-PC\Documents\Visual Studio 2017\Project\StephSoft\StephSoft\obj\Debug\StephSoft.Form1.resources
+C:\Users\Creativa-PC\Documents\Visual Studio 2017\Project\StephSoft\StephSoft\obj\Debug\StephSoft.frmAsignarHorario.resources
+C:\Users\Creativa-PC\Documents\Visual Studio 2017\Project\StephSoft\StephSoft\obj\Debug\StephSoft.frmAutorizacion.resources
+C:\Users\Creativa-PC\Documents\Visual Studio 2017\Project\StephSoft\StephSoft\obj\Debug\StephSoft.frmBusquedaVentas.resources
+C:\Users\Creativa-PC\Documents\Visual Studio 2017\Project\StephSoft\StephSoft\obj\Debug\StephSoft.frmCancelar.resources
+C:\Users\Creativa-PC\Documents\Visual Studio 2017\Project\StephSoft\StephSoft\obj\Debug\StephSoft.frmCancelarTicket.resources
+C:\Users\Creativa-PC\Documents\Visual Studio 2017\Project\StephSoft\StephSoft\obj\Debug\StephSoft.frmCatalogoWeb.resources
+C:\Users\Creativa-PC\Documents\Visual Studio 2017\Project\StephSoft\StephSoft\obj\Debug\StephSoft.frmCatCiclos.resources
+C:\Users\Creativa-PC\Documents\Visual Studio 2017\Project\StephSoft\StephSoft\obj\Debug\StephSoft.frmCatEmpleado.resources
+C:\Users\Creativa-PC\Documents\Visual Studio 2017\Project\StephSoft\StephSoft\obj\Debug\StephSoft.frmCierreCaja.resources
+C:\Users\Creativa-PC\Documents\Visual Studio 2017\Project\StephSoft\StephSoft\obj\Debug\StephSoft.frmClavesXIDEmpleado.resources
+C:\Users\Creativa-PC\Documents\Visual Studio 2017\Project\StephSoft\StephSoft\obj\Debug\StephSoft.frmCobro.resources
+C:\Users\Creativa-PC\Documents\Visual Studio 2017\Project\StephSoft\StephSoft\obj\Debug\StephSoft.frmConcluirPago.resources
+C:\Users\Creativa-PC\Documents\Visual Studio 2017\Project\StephSoft\StephSoft\obj\Debug\StephSoft.frmConfiguracionLocal.resources
+C:\Users\Creativa-PC\Documents\Visual Studio 2017\Project\StephSoft\StephSoft\obj\Debug\StephSoft.frmCuentaEmpleado.resources
+C:\Users\Creativa-PC\Documents\Visual Studio 2017\Project\StephSoft\StephSoft\obj\Debug\StephSoft.frmDatosServicio.resources
+C:\Users\Creativa-PC\Documents\Visual Studio 2017\Project\StephSoft\StephSoft\obj\Debug\StephSoft.frmDatosTarjeta.resources
+C:\Users\Creativa-PC\Documents\Visual Studio 2017\Project\StephSoft\StephSoft\obj\Debug\StephSoft.frmDepositosRetirosCaja.resources
+C:\Users\Creativa-PC\Documents\Visual Studio 2017\Project\StephSoft\StephSoft\obj\Debug\StephSoft.frmAperturaCaja.resources
+C:\Users\Creativa-PC\Documents\Visual Studio 2017\Project\StephSoft\StephSoft\obj\Debug\StephSoft.frmAsignarCaja.resources
+C:\Users\Creativa-PC\Documents\Visual Studio 2017\Project\StephSoft\StephSoft\obj\Debug\StephSoft.frmAtenderCita.resources
+C:\Users\Creativa-PC\Documents\Visual Studio 2017\Project\StephSoft\StephSoft\obj\Debug\StephSoft.frmCancelarCita.resources
+C:\Users\Creativa-PC\Documents\Visual Studio 2017\Project\StephSoft\StephSoft\obj\Debug\StephSoft.frmCatClientes.resources
+C:\Users\Creativa-PC\Documents\Visual Studio 2017\Project\StephSoft\StephSoft\obj\Debug\StephSoft.frmCatEmpleadoHuella.resources
+C:\Users\Creativa-PC\Documents\Visual Studio 2017\Project\StephSoft\StephSoft\obj\Debug\StephSoft.frmChecador.resources
+C:\Users\Creativa-PC\Documents\Visual Studio 2017\Project\StephSoft\StephSoft\obj\Debug\StephSoft.frmChecarEntradaSalida.resources
+C:\Users\Creativa-PC\Documents\Visual Studio 2017\Project\StephSoft\StephSoft\obj\Debug\StephSoft.frmCitas.resources
+C:\Users\Creativa-PC\Documents\Visual Studio 2017\Project\StephSoft\StephSoft\obj\Debug\StephSoft.frmDescontarExistencia.resources
+C:\Users\Creativa-PC\Documents\Visual Studio 2017\Project\StephSoft\StephSoft\obj\Debug\StephSoft.frmDetalleCita.resources
+C:\Users\Creativa-PC\Documents\Visual Studio 2017\Project\StephSoft\StephSoft\obj\Debug\StephSoft.frmElegirProducto.resources
+C:\Users\Creativa-PC\Documents\Visual Studio 2017\Project\StephSoft\StephSoft\obj\Debug\StephSoft.frmElegirProductoBusq.resources
+C:\Users\Creativa-PC\Documents\Visual Studio 2017\Project\StephSoft\StephSoft\obj\Debug\StephSoft.frmElegirProveedor.resources
+C:\Users\Creativa-PC\Documents\Visual Studio 2017\Project\StephSoft\StephSoft\obj\Debug\StephSoft.frmElegirServicioCita.resources
+C:\Users\Creativa-PC\Documents\Visual Studio 2017\Project\StephSoft\StephSoft\obj\Debug\StephSoft.frmElegirTarjetaMonedero.resources
+C:\Users\Creativa-PC\Documents\Visual Studio 2017\Project\StephSoft\StephSoft\obj\Debug\StephSoft.frmElegirTurnoCombo.resources
+C:\Users\Creativa-PC\Documents\Visual Studio 2017\Project\StephSoft\StephSoft\obj\Debug\StephSoft.frmEntregaMaterial.resources
+C:\Users\Creativa-PC\Documents\Visual Studio 2017\Project\StephSoft\StephSoft\obj\Debug\StephSoft.frmGarantias.resources
+C:\Users\Creativa-PC\Documents\Visual Studio 2017\Project\StephSoft\StephSoft\obj\Debug\StephSoft.frmGarantiasBusqVentas.resources
+C:\Users\Creativa-PC\Documents\Visual Studio 2017\Project\StephSoft\StephSoft\obj\Debug\StephSoft.frmGastosXSucursal.resources
+C:\Users\Creativa-PC\Documents\Visual Studio 2017\Project\StephSoft\StephSoft\obj\Debug\StephSoft.frmHistCita.resources
+C:\Users\Creativa-PC\Documents\Visual Studio 2017\Project\StephSoft\StephSoft\obj\Debug\StephSoft.frmHistCompras.resources
+C:\Users\Creativa-PC\Documents\Visual Studio 2017\Project\StephSoft\StephSoft\obj\Debug\StephSoft.frmHistSucursales.resources
+C:\Users\Creativa-PC\Documents\Visual Studio 2017\Project\StephSoft\StephSoft\obj\Debug\StephSoft.frmHorarioEmpleado.resources
+C:\Users\Creativa-PC\Documents\Visual Studio 2017\Project\StephSoft\StephSoft\obj\Debug\StephSoft.frmInicial.resources
+C:\Users\Creativa-PC\Documents\Visual Studio 2017\Project\StephSoft\StephSoft\obj\Debug\StephSoft.frmInicializarClaves.resources
+C:\Users\Creativa-PC\Documents\Visual Studio 2017\Project\StephSoft\StephSoft\obj\Debug\StephSoft.frmIniciarServicio.resources
+C:\Users\Creativa-PC\Documents\Visual Studio 2017\Project\StephSoft\StephSoft\obj\Debug\StephSoft.frmInventario.resources
+C:\Users\Creativa-PC\Documents\Visual Studio 2017\Project\StephSoft\StephSoft\obj\Debug\StephSoft.frmJustificaciones.resources
+C:\Users\Creativa-PC\Documents\Visual Studio 2017\Project\StephSoft\StephSoft\obj\Debug\StephSoft.frmLogin.resources
+C:\Users\Creativa-PC\Documents\Visual Studio 2017\Project\StephSoft\StephSoft\obj\Debug\StephSoft.frmMenuInicio.resources
+C:\Users\Creativa-PC\Documents\Visual Studio 2017\Project\StephSoft\StephSoft\obj\Debug\StephSoft.frmMobiliarioRecepcion.resources
+C:\Users\Creativa-PC\Documents\Visual Studio 2017\Project\StephSoft\StephSoft\obj\Debug\StephSoft.frmMobiliarioRecibir.resources
+C:\Users\Creativa-PC\Documents\Visual Studio 2017\Project\StephSoft\StephSoft\obj\Debug\StephSoft.frmNuevaCita.resources
+C:\Users\Creativa-PC\Documents\Visual Studio 2017\Project\StephSoft\StephSoft\obj\Debug\StephSoft.frmNuevaClaveProduccion.resources
+C:\Users\Creativa-PC\Documents\Visual Studio 2017\Project\StephSoft\StephSoft\obj\Debug\StephSoft.frmNuevaGarantia.resources
+C:\Users\Creativa-PC\Documents\Visual Studio 2017\Project\StephSoft\StephSoft\obj\Debug\StephSoft.frmNuevaImagenCatWeb.resources
+C:\Users\Creativa-PC\Documents\Visual Studio 2017\Project\StephSoft\StephSoft\obj\Debug\StephSoft.frmNuevaPromocionVenta.resources
+C:\Users\Creativa-PC\Documents\Visual Studio 2017\Project\StephSoft\StephSoft\obj\Debug\StephSoft.frmNuevoCiclo.resources
+C:\Users\Creativa-PC\Documents\Visual Studio 2017\Project\StephSoft\StephSoft\obj\Debug\StephSoft.frmNuevoCliente.resources
+C:\Users\Creativa-PC\Documents\Visual Studio 2017\Project\StephSoft\StephSoft\obj\Debug\StephSoft.frmNuevoGasto.resources
+C:\Users\Creativa-PC\Documents\Visual Studio 2017\Project\StephSoft\StephSoft\obj\Debug\StephSoft.frmNuevoPedido.resources
+C:\Users\Creativa-PC\Documents\Visual Studio 2017\Project\StephSoft\StephSoft\obj\Debug\StephSoft.frmNuevoPedidoProducto.resources
+C:\Users\Creativa-PC\Documents\Visual Studio 2017\Project\StephSoft\StephSoft\obj\Debug\StephSoft.frmNuevoPedidoReemplazoProducto.resources
+C:\Users\Creativa-PC\Documents\Visual Studio 2017\Project\StephSoft\StephSoft\obj\Debug\StephSoft.frmNuevoProducto.resources
+C:\Users\Creativa-PC\Documents\Visual Studio 2017\Project\StephSoft\StephSoft\obj\Debug\StephSoft.frmNuevoRegistroAsistencia.resources
+C:\Users\Creativa-PC\Documents\Visual Studio 2017\Project\StephSoft\StephSoft\obj\Debug\StephSoft.frmNuevoServicio.resources
+C:\Users\Creativa-PC\Documents\Visual Studio 2017\Project\StephSoft\StephSoft\obj\Debug\StephSoft.frmNuevoServicioTicket.resources
+C:\Users\Creativa-PC\Documents\Visual Studio 2017\Project\StephSoft\StephSoft\obj\Debug\StephSoft.frmNuevoTicket.resources
+C:\Users\Creativa-PC\Documents\Visual Studio 2017\Project\StephSoft\StephSoft\obj\Debug\StephSoft.frmNumeroTarjeta.resources
+C:\Users\Creativa-PC\Documents\Visual Studio 2017\Project\StephSoft\StephSoft\obj\Debug\StephSoft.frmPedidoDetalle.resources
+C:\Users\Creativa-PC\Documents\Visual Studio 2017\Project\StephSoft\StephSoft\obj\Debug\StephSoft.frmPedidoRecibir.resources
+C:\Users\Creativa-PC\Documents\Visual Studio 2017\Project\StephSoft\StephSoft\obj\Debug\StephSoft.frmPedidos.resources
+C:\Users\Creativa-PC\Documents\Visual Studio 2017\Project\StephSoft\StephSoft\obj\Debug\StephSoft.frmPedidosRecepcion.resources
+C:\Users\Creativa-PC\Documents\Visual Studio 2017\Project\StephSoft\StephSoft\obj\Debug\StephSoft.frmPefilUsuario.resources
+C:\Users\Creativa-PC\Documents\Visual Studio 2017\Project\StephSoft\StephSoft\obj\Debug\StephSoft.frmRespaldoCobro.resources
+C:\Users\Creativa-PC\Documents\Visual Studio 2017\Project\StephSoft\StephSoft\obj\Debug\StephSoft.frmResumenVenta.resources
+C:\Users\Creativa-PC\Documents\Visual Studio 2017\Project\StephSoft\StephSoft\obj\Debug\StephSoft.frmSeleccionarCliente.resources
+C:\Users\Creativa-PC\Documents\Visual Studio 2017\Project\StephSoft\StephSoft\obj\Debug\StephSoft.frmSeleccionarProducto.resources
+C:\Users\Creativa-PC\Documents\Visual Studio 2017\Project\StephSoft\StephSoft\obj\Debug\StephSoft.frmTicketDetalleProductosXServicio.resources
+C:\Users\Creativa-PC\Documents\Visual Studio 2017\Project\StephSoft\StephSoft\obj\Debug\StephSoft.frmVentaDirecta.resources
+C:\Users\Creativa-PC\Documents\Visual Studio 2017\Project\StephSoft\StephSoft\obj\Debug\StephSoft.frmVentaServicios.resources
+C:\Users\Creativa-PC\Documents\Visual Studio 2017\Project\StephSoft\StephSoft\obj\Debug\StephSoft.frmVerDetalleCiclo.resources
+C:\Users\Creativa-PC\Documents\Visual Studio 2017\Project\StephSoft\StephSoft\obj\Debug\StephSoft.frmVerReporte.resources
+C:\Users\Creativa-PC\Documents\Visual Studio 2017\Project\StephSoft\StephSoft\obj\Debug\StephSoft.Properties.Resources.resources
+C:\Users\Creativa-PC\Documents\Visual Studio 2017\Project\StephSoft\StephSoft\obj\Debug\StepthSoft.csproj.GenerateResource.cache
+C:\Users\Creativa-PC\Documents\Visual Studio 2017\Project\StephSoft\StephSoft\obj\Debug\StepthSoft.csproj.CoreCompileInputs.cache
+C:\Users\Creativa-PC\Documents\Visual Studio 2017\Project\StephSoft\StephSoft\obj\Debug\StepthSoft.csproj.CopyComplete
+C:\Users\Creativa-PC\Documents\Visual Studio 2017\Project\StephSoft\StephSoft\obj\Debug\StephSoft.exe
+C:\Users\Creativa-PC\Documents\Visual Studio 2017\Project\StephSoft\StephSoft\obj\Debug\StephSoft.pdb

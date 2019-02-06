@@ -108,7 +108,6 @@ namespace CreativaSL.Dll.StephSoft.Datos
             }
         }
 
-
         public Usuario Autorizacion(string Conexion, string User, string Password, int TipoAcceso)
         {
             try

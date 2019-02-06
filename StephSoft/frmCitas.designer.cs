@@ -46,6 +46,12 @@
             this.EstatusCita = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.panel7 = new System.Windows.Forms.Panel();
             this.PanelMenu = new System.Windows.Forms.Panel();
+            this.btnVerCitas = new CreativaSL.LibControls.WinForms.Button_Creativa();
+            this.btnVerDetalles = new CreativaSL.LibControls.WinForms.Button_Creativa();
+            this.btnAtenderCita = new CreativaSL.LibControls.WinForms.Button_Creativa();
+            this.btnSalir = new CreativaSL.LibControls.WinForms.Button_Creativa();
+            this.btnEliminar = new CreativaSL.LibControls.WinForms.Button_Creativa();
+            this.btnNuevo = new CreativaSL.LibControls.WinForms.Button_Creativa();
             this.panel4 = new System.Windows.Forms.Panel();
             this.panel10 = new System.Windows.Forms.Panel();
             this.btnCancelarBusq = new CreativaSL.LibControls.WinForms.Button_Creativa();
@@ -56,14 +62,8 @@
             this.txtBusqueda = new System.Windows.Forms.TextBox();
             this.panel2 = new System.Windows.Forms.Panel();
             this.panel6 = new System.Windows.Forms.Panel();
-            this.label42 = new System.Windows.Forms.Label();
-            this.btnVerCitas = new CreativaSL.LibControls.WinForms.Button_Creativa();
-            this.btnVerDetalles = new CreativaSL.LibControls.WinForms.Button_Creativa();
-            this.btnAtenderCita = new CreativaSL.LibControls.WinForms.Button_Creativa();
-            this.btnSalir = new CreativaSL.LibControls.WinForms.Button_Creativa();
-            this.btnEliminar = new CreativaSL.LibControls.WinForms.Button_Creativa();
-            this.btnNuevo = new CreativaSL.LibControls.WinForms.Button_Creativa();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.label42 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             this.panel3.SuspendLayout();
             this.panel5.SuspendLayout();
@@ -262,6 +262,210 @@
             this.PanelMenu.Size = new System.Drawing.Size(1008, 80);
             this.PanelMenu.TabIndex = 1;
             // 
+            // btnVerCitas
+            // 
+            this.btnVerCitas.Anchor = System.Windows.Forms.AnchorStyles.Right;
+            this.btnVerCitas.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(108)))), ((int)(((byte)(114)))));
+            this.btnVerCitas.BorderColor = System.Drawing.Color.Red;
+            this.btnVerCitas.BorderFocusColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(108)))), ((int)(((byte)(114)))));
+            this.btnVerCitas.BorderMouseOverColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.btnVerCitas.BorderNoFocusColor = System.Drawing.Color.Maroon;
+            this.btnVerCitas.FocusRectangle = true;
+            this.btnVerCitas.Font = new System.Drawing.Font("Trebuchet MS", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnVerCitas.ForeColor = System.Drawing.Color.White;
+            this.btnVerCitas.Image = null;
+            this.btnVerCitas.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.btnVerCitas.ImageBorderColor = System.Drawing.Color.Red;
+            this.btnVerCitas.ImageFocused = null;
+            this.btnVerCitas.ImageInactive = null;
+            this.btnVerCitas.ImageMouseOver = global::StephSoft.Properties.Resources._0000s_0001s_0010_citas_a;
+            this.btnVerCitas.ImageNormal = global::StephSoft.Properties.Resources._0000s_0001s_0010_citas;
+            this.btnVerCitas.ImagePressed = null;
+            this.btnVerCitas.ImageSize = new System.Drawing.Size(44, 44);
+            this.btnVerCitas.KeyButton = System.Windows.Forms.Keys.F1;
+            this.btnVerCitas.KeyButtonView = false;
+            this.btnVerCitas.Location = new System.Drawing.Point(498, 5);
+            this.btnVerCitas.ModeGradient = System.Drawing.Drawing2D.LinearGradientMode.Vertical;
+            this.btnVerCitas.MouseOverColor = System.Drawing.Color.Red;
+            this.btnVerCitas.Name = "btnVerCitas";
+            this.btnVerCitas.OffsetPressedContent = true;
+            this.btnVerCitas.Size = new System.Drawing.Size(80, 70);
+            this.btnVerCitas.TabIndex = 16;
+            this.btnVerCitas.Text = "Ver citas";
+            this.btnVerCitas.TextDropShadow = true;
+            this.btnVerCitas.UseVisualStyleBackColor = false;
+            this.btnVerCitas.Click += new System.EventHandler(this.btnVerCitas_Click);
+            // 
+            // btnVerDetalles
+            // 
+            this.btnVerDetalles.Anchor = System.Windows.Forms.AnchorStyles.Right;
+            this.btnVerDetalles.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(108)))), ((int)(((byte)(114)))));
+            this.btnVerDetalles.BorderColor = System.Drawing.Color.Red;
+            this.btnVerDetalles.BorderFocusColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(108)))), ((int)(((byte)(114)))));
+            this.btnVerDetalles.BorderMouseOverColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.btnVerDetalles.BorderNoFocusColor = System.Drawing.Color.Maroon;
+            this.btnVerDetalles.FocusRectangle = true;
+            this.btnVerDetalles.Font = new System.Drawing.Font("Trebuchet MS", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnVerDetalles.ForeColor = System.Drawing.Color.White;
+            this.btnVerDetalles.Image = null;
+            this.btnVerDetalles.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.btnVerDetalles.ImageBorderColor = System.Drawing.Color.Red;
+            this.btnVerDetalles.ImageFocused = null;
+            this.btnVerDetalles.ImageInactive = null;
+            this.btnVerDetalles.ImageMouseOver = global::StephSoft.Properties.Resources.icons_steph_vino_ver_detalles_a;
+            this.btnVerDetalles.ImageNormal = global::StephSoft.Properties.Resources.icons_steph_vino_ver_detalles;
+            this.btnVerDetalles.ImagePressed = null;
+            this.btnVerDetalles.ImageSize = new System.Drawing.Size(44, 44);
+            this.btnVerDetalles.KeyButton = System.Windows.Forms.Keys.F1;
+            this.btnVerDetalles.KeyButtonView = false;
+            this.btnVerDetalles.Location = new System.Drawing.Point(826, 5);
+            this.btnVerDetalles.ModeGradient = System.Drawing.Drawing2D.LinearGradientMode.Vertical;
+            this.btnVerDetalles.MouseOverColor = System.Drawing.Color.Red;
+            this.btnVerDetalles.Name = "btnVerDetalles";
+            this.btnVerDetalles.OffsetPressedContent = true;
+            this.btnVerDetalles.Size = new System.Drawing.Size(80, 70);
+            this.btnVerDetalles.TabIndex = 14;
+            this.btnVerDetalles.Text = "Consulta";
+            this.btnVerDetalles.TextDropShadow = true;
+            this.btnVerDetalles.UseVisualStyleBackColor = false;
+            this.btnVerDetalles.Click += new System.EventHandler(this.btnVerDetalles_Click);
+            // 
+            // btnAtenderCita
+            // 
+            this.btnAtenderCita.Anchor = System.Windows.Forms.AnchorStyles.Right;
+            this.btnAtenderCita.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(108)))), ((int)(((byte)(114)))));
+            this.btnAtenderCita.BorderColor = System.Drawing.Color.Red;
+            this.btnAtenderCita.BorderFocusColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(108)))), ((int)(((byte)(114)))));
+            this.btnAtenderCita.BorderMouseOverColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.btnAtenderCita.BorderNoFocusColor = System.Drawing.Color.Maroon;
+            this.btnAtenderCita.FocusRectangle = true;
+            this.btnAtenderCita.Font = new System.Drawing.Font("Trebuchet MS", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnAtenderCita.ForeColor = System.Drawing.Color.White;
+            this.btnAtenderCita.Image = null;
+            this.btnAtenderCita.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.btnAtenderCita.ImageBorderColor = System.Drawing.Color.Red;
+            this.btnAtenderCita.ImageFocused = null;
+            this.btnAtenderCita.ImageInactive = null;
+            this.btnAtenderCita.ImageMouseOver = global::StephSoft.Properties.Resources.icons_steph_vino_Atender_Cita_a;
+            this.btnAtenderCita.ImageNormal = global::StephSoft.Properties.Resources.icons_steph_vino_Atender_Cita;
+            this.btnAtenderCita.ImagePressed = null;
+            this.btnAtenderCita.ImageSize = new System.Drawing.Size(44, 44);
+            this.btnAtenderCita.KeyButton = System.Windows.Forms.Keys.F1;
+            this.btnAtenderCita.KeyButtonView = false;
+            this.btnAtenderCita.Location = new System.Drawing.Point(744, 5);
+            this.btnAtenderCita.ModeGradient = System.Drawing.Drawing2D.LinearGradientMode.Vertical;
+            this.btnAtenderCita.MouseOverColor = System.Drawing.Color.Red;
+            this.btnAtenderCita.Name = "btnAtenderCita";
+            this.btnAtenderCita.OffsetPressedContent = true;
+            this.btnAtenderCita.Size = new System.Drawing.Size(80, 70);
+            this.btnAtenderCita.TabIndex = 13;
+            this.btnAtenderCita.Text = "Atender Cita";
+            this.btnAtenderCita.TextDropShadow = true;
+            this.btnAtenderCita.UseVisualStyleBackColor = false;
+            this.btnAtenderCita.Click += new System.EventHandler(this.btnAtenderCita_Click);
+            // 
+            // btnSalir
+            // 
+            this.btnSalir.Anchor = System.Windows.Forms.AnchorStyles.Right;
+            this.btnSalir.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(108)))), ((int)(((byte)(114)))));
+            this.btnSalir.BorderColor = System.Drawing.Color.Red;
+            this.btnSalir.BorderFocusColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(108)))), ((int)(((byte)(114)))));
+            this.btnSalir.BorderMouseOverColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.btnSalir.BorderNoFocusColor = System.Drawing.Color.Maroon;
+            this.btnSalir.FocusRectangle = true;
+            this.btnSalir.Font = new System.Drawing.Font("Trebuchet MS", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnSalir.ForeColor = System.Drawing.Color.White;
+            this.btnSalir.Image = null;
+            this.btnSalir.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.btnSalir.ImageBorderColor = System.Drawing.Color.Red;
+            this.btnSalir.ImageFocused = null;
+            this.btnSalir.ImageInactive = null;
+            this.btnSalir.ImageMouseOver = global::StephSoft.Properties.Resources._0000s_0001s_0000_salir_a;
+            this.btnSalir.ImageNormal = global::StephSoft.Properties.Resources._0000s_0001s_0000_salir;
+            this.btnSalir.ImagePressed = null;
+            this.btnSalir.ImageSize = new System.Drawing.Size(44, 44);
+            this.btnSalir.KeyButton = System.Windows.Forms.Keys.F1;
+            this.btnSalir.KeyButtonView = false;
+            this.btnSalir.Location = new System.Drawing.Point(908, 5);
+            this.btnSalir.ModeGradient = System.Drawing.Drawing2D.LinearGradientMode.Vertical;
+            this.btnSalir.MouseOverColor = System.Drawing.Color.Red;
+            this.btnSalir.Name = "btnSalir";
+            this.btnSalir.OffsetPressedContent = true;
+            this.btnSalir.Size = new System.Drawing.Size(80, 70);
+            this.btnSalir.TabIndex = 15;
+            this.btnSalir.Text = "Salir";
+            this.btnSalir.TextDropShadow = true;
+            this.btnSalir.UseVisualStyleBackColor = false;
+            this.btnSalir.Click += new System.EventHandler(this.btnSalir_Click);
+            // 
+            // btnEliminar
+            // 
+            this.btnEliminar.Anchor = System.Windows.Forms.AnchorStyles.Right;
+            this.btnEliminar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(108)))), ((int)(((byte)(114)))));
+            this.btnEliminar.BorderColor = System.Drawing.Color.Red;
+            this.btnEliminar.BorderFocusColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(108)))), ((int)(((byte)(114)))));
+            this.btnEliminar.BorderMouseOverColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.btnEliminar.BorderNoFocusColor = System.Drawing.Color.Maroon;
+            this.btnEliminar.FocusRectangle = true;
+            this.btnEliminar.Font = new System.Drawing.Font("Trebuchet MS", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnEliminar.ForeColor = System.Drawing.Color.White;
+            this.btnEliminar.Image = null;
+            this.btnEliminar.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.btnEliminar.ImageBorderColor = System.Drawing.Color.Red;
+            this.btnEliminar.ImageFocused = null;
+            this.btnEliminar.ImageInactive = null;
+            this.btnEliminar.ImageMouseOver = global::StephSoft.Properties.Resources._0000s_0000s_0002_cancelar_a;
+            this.btnEliminar.ImageNormal = global::StephSoft.Properties.Resources._0000s_0000s_0002_cancelar;
+            this.btnEliminar.ImagePressed = null;
+            this.btnEliminar.ImageSize = new System.Drawing.Size(44, 44);
+            this.btnEliminar.KeyButton = System.Windows.Forms.Keys.F1;
+            this.btnEliminar.KeyButtonView = false;
+            this.btnEliminar.Location = new System.Drawing.Point(662, 5);
+            this.btnEliminar.ModeGradient = System.Drawing.Drawing2D.LinearGradientMode.Vertical;
+            this.btnEliminar.MouseOverColor = System.Drawing.Color.Red;
+            this.btnEliminar.Name = "btnEliminar";
+            this.btnEliminar.OffsetPressedContent = true;
+            this.btnEliminar.Size = new System.Drawing.Size(80, 70);
+            this.btnEliminar.TabIndex = 12;
+            this.btnEliminar.Text = "Cancelar Cita";
+            this.btnEliminar.TextDropShadow = true;
+            this.btnEliminar.UseVisualStyleBackColor = false;
+            this.btnEliminar.Click += new System.EventHandler(this.btnEliminar_Click);
+            // 
+            // btnNuevo
+            // 
+            this.btnNuevo.Anchor = System.Windows.Forms.AnchorStyles.Right;
+            this.btnNuevo.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(108)))), ((int)(((byte)(114)))));
+            this.btnNuevo.BorderColor = System.Drawing.Color.Red;
+            this.btnNuevo.BorderFocusColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(108)))), ((int)(((byte)(114)))));
+            this.btnNuevo.BorderMouseOverColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.btnNuevo.BorderNoFocusColor = System.Drawing.Color.Maroon;
+            this.btnNuevo.FocusRectangle = true;
+            this.btnNuevo.Font = new System.Drawing.Font("Trebuchet MS", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnNuevo.ForeColor = System.Drawing.Color.White;
+            this.btnNuevo.Image = null;
+            this.btnNuevo.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.btnNuevo.ImageBorderColor = System.Drawing.Color.Red;
+            this.btnNuevo.ImageFocused = null;
+            this.btnNuevo.ImageInactive = null;
+            this.btnNuevo.ImageMouseOver = global::StephSoft.Properties.Resources._0000s_0000s_0001_agregar_a;
+            this.btnNuevo.ImageNormal = global::StephSoft.Properties.Resources._0000s_0000s_0001_agregar;
+            this.btnNuevo.ImagePressed = null;
+            this.btnNuevo.ImageSize = new System.Drawing.Size(44, 44);
+            this.btnNuevo.KeyButton = System.Windows.Forms.Keys.F1;
+            this.btnNuevo.KeyButtonView = false;
+            this.btnNuevo.Location = new System.Drawing.Point(580, 5);
+            this.btnNuevo.ModeGradient = System.Drawing.Drawing2D.LinearGradientMode.Vertical;
+            this.btnNuevo.MouseOverColor = System.Drawing.Color.Red;
+            this.btnNuevo.Name = "btnNuevo";
+            this.btnNuevo.OffsetPressedContent = true;
+            this.btnNuevo.Size = new System.Drawing.Size(80, 70);
+            this.btnNuevo.TabIndex = 10;
+            this.btnNuevo.Text = "Nuevo";
+            this.btnNuevo.TextDropShadow = true;
+            this.btnNuevo.UseVisualStyleBackColor = false;
+            this.btnNuevo.Click += new System.EventHandler(this.btnNuevo_Click);
+            // 
             // panel4
             // 
             this.panel4.AutoScroll = true;
@@ -414,221 +618,6 @@
             this.panel6.Size = new System.Drawing.Size(1008, 80);
             this.panel6.TabIndex = 2;
             // 
-            // label42
-            // 
-            this.label42.AutoSize = true;
-            this.label42.Font = new System.Drawing.Font("Microsoft Sans Serif", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label42.ForeColor = System.Drawing.Color.White;
-            this.label42.Location = new System.Drawing.Point(21, 9);
-            this.label42.Name = "label42";
-            this.label42.Size = new System.Drawing.Size(138, 55);
-            this.label42.TabIndex = 24;
-            this.label42.Text = "Citas";
-            // 
-            // btnVerCitas
-            // 
-            this.btnVerCitas.Anchor = System.Windows.Forms.AnchorStyles.Right;
-            this.btnVerCitas.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(108)))), ((int)(((byte)(114)))));
-            this.btnVerCitas.BorderColor = System.Drawing.Color.Red;
-            this.btnVerCitas.BorderFocusColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(108)))), ((int)(((byte)(114)))));
-            this.btnVerCitas.BorderMouseOverColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.btnVerCitas.BorderNoFocusColor = System.Drawing.Color.Maroon;
-            this.btnVerCitas.FocusRectangle = true;
-            this.btnVerCitas.Font = new System.Drawing.Font("Trebuchet MS", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnVerCitas.ForeColor = System.Drawing.Color.White;
-            this.btnVerCitas.Image = null;
-            this.btnVerCitas.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.btnVerCitas.ImageBorderColor = System.Drawing.Color.Red;
-            this.btnVerCitas.ImageFocused = null;
-            this.btnVerCitas.ImageInactive = null;
-            this.btnVerCitas.ImageMouseOver = global::StephSoft.Properties.Resources._0000s_0001s_0010_citas_a;
-            this.btnVerCitas.ImageNormal = global::StephSoft.Properties.Resources._0000s_0001s_0010_citas;
-            this.btnVerCitas.ImagePressed = null;
-            this.btnVerCitas.ImageSize = new System.Drawing.Size(44, 44);
-            this.btnVerCitas.KeyButton = System.Windows.Forms.Keys.F1;
-            this.btnVerCitas.KeyButtonView = false;
-            this.btnVerCitas.Location = new System.Drawing.Point(498, 5);
-            this.btnVerCitas.ModeGradient = System.Drawing.Drawing2D.LinearGradientMode.Vertical;
-            this.btnVerCitas.MouseOverColor = System.Drawing.Color.Red;
-            this.btnVerCitas.Name = "btnVerCitas";
-            this.btnVerCitas.OffsetPressedContent = true;
-            this.btnVerCitas.Size = new System.Drawing.Size(80, 70);
-            this.btnVerCitas.TabIndex = 16;
-            this.btnVerCitas.Text = "Ver citas";
-            this.btnVerCitas.TextDropShadow = true;
-            this.btnVerCitas.UseVisualStyleBackColor = false;
-            this.btnVerCitas.Click += new System.EventHandler(this.btnVerCitas_Click);
-            // 
-            // btnVerDetalles
-            // 
-            this.btnVerDetalles.Anchor = System.Windows.Forms.AnchorStyles.Right;
-            this.btnVerDetalles.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(108)))), ((int)(((byte)(114)))));
-            this.btnVerDetalles.BorderColor = System.Drawing.Color.Red;
-            this.btnVerDetalles.BorderFocusColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(108)))), ((int)(((byte)(114)))));
-            this.btnVerDetalles.BorderMouseOverColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.btnVerDetalles.BorderNoFocusColor = System.Drawing.Color.Maroon;
-            this.btnVerDetalles.FocusRectangle = true;
-            this.btnVerDetalles.Font = new System.Drawing.Font("Trebuchet MS", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnVerDetalles.ForeColor = System.Drawing.Color.White;
-            this.btnVerDetalles.Image = null;
-            this.btnVerDetalles.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.btnVerDetalles.ImageBorderColor = System.Drawing.Color.Red;
-            this.btnVerDetalles.ImageFocused = null;
-            this.btnVerDetalles.ImageInactive = null;
-            this.btnVerDetalles.ImageMouseOver = global::StephSoft.Properties.Resources.icons_steph_vino_ver_detalles_a;
-            this.btnVerDetalles.ImageNormal = global::StephSoft.Properties.Resources.icons_steph_vino_ver_detalles;
-            this.btnVerDetalles.ImagePressed = null;
-            this.btnVerDetalles.ImageSize = new System.Drawing.Size(44, 44);
-            this.btnVerDetalles.KeyButton = System.Windows.Forms.Keys.F1;
-            this.btnVerDetalles.KeyButtonView = false;
-            this.btnVerDetalles.Location = new System.Drawing.Point(826, 5);
-            this.btnVerDetalles.ModeGradient = System.Drawing.Drawing2D.LinearGradientMode.Vertical;
-            this.btnVerDetalles.MouseOverColor = System.Drawing.Color.Red;
-            this.btnVerDetalles.Name = "btnVerDetalles";
-            this.btnVerDetalles.OffsetPressedContent = true;
-            this.btnVerDetalles.Size = new System.Drawing.Size(80, 70);
-            this.btnVerDetalles.TabIndex = 14;
-            this.btnVerDetalles.Text = "Ver Detalles";
-            this.btnVerDetalles.TextDropShadow = true;
-            this.btnVerDetalles.UseVisualStyleBackColor = false;
-            this.btnVerDetalles.Click += new System.EventHandler(this.btnVerDetalles_Click);
-            // 
-            // btnAtenderCita
-            // 
-            this.btnAtenderCita.Anchor = System.Windows.Forms.AnchorStyles.Right;
-            this.btnAtenderCita.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(108)))), ((int)(((byte)(114)))));
-            this.btnAtenderCita.BorderColor = System.Drawing.Color.Red;
-            this.btnAtenderCita.BorderFocusColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(108)))), ((int)(((byte)(114)))));
-            this.btnAtenderCita.BorderMouseOverColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.btnAtenderCita.BorderNoFocusColor = System.Drawing.Color.Maroon;
-            this.btnAtenderCita.FocusRectangle = true;
-            this.btnAtenderCita.Font = new System.Drawing.Font("Trebuchet MS", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnAtenderCita.ForeColor = System.Drawing.Color.White;
-            this.btnAtenderCita.Image = null;
-            this.btnAtenderCita.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.btnAtenderCita.ImageBorderColor = System.Drawing.Color.Red;
-            this.btnAtenderCita.ImageFocused = null;
-            this.btnAtenderCita.ImageInactive = null;
-            this.btnAtenderCita.ImageMouseOver = global::StephSoft.Properties.Resources.icons_steph_vino_Atender_Cita_a;
-            this.btnAtenderCita.ImageNormal = global::StephSoft.Properties.Resources.icons_steph_vino_Atender_Cita;
-            this.btnAtenderCita.ImagePressed = null;
-            this.btnAtenderCita.ImageSize = new System.Drawing.Size(44, 44);
-            this.btnAtenderCita.KeyButton = System.Windows.Forms.Keys.F1;
-            this.btnAtenderCita.KeyButtonView = false;
-            this.btnAtenderCita.Location = new System.Drawing.Point(744, 5);
-            this.btnAtenderCita.ModeGradient = System.Drawing.Drawing2D.LinearGradientMode.Vertical;
-            this.btnAtenderCita.MouseOverColor = System.Drawing.Color.Red;
-            this.btnAtenderCita.Name = "btnAtenderCita";
-            this.btnAtenderCita.OffsetPressedContent = true;
-            this.btnAtenderCita.Size = new System.Drawing.Size(80, 70);
-            this.btnAtenderCita.TabIndex = 13;
-            this.btnAtenderCita.Text = "Atender Cita";
-            this.btnAtenderCita.TextDropShadow = true;
-            this.btnAtenderCita.UseVisualStyleBackColor = false;
-            this.btnAtenderCita.Click += new System.EventHandler(this.btnAtenderCita_Click);
-            // 
-            // btnSalir
-            // 
-            this.btnSalir.Anchor = System.Windows.Forms.AnchorStyles.Right;
-            this.btnSalir.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(108)))), ((int)(((byte)(114)))));
-            this.btnSalir.BorderColor = System.Drawing.Color.Red;
-            this.btnSalir.BorderFocusColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(108)))), ((int)(((byte)(114)))));
-            this.btnSalir.BorderMouseOverColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.btnSalir.BorderNoFocusColor = System.Drawing.Color.Maroon;
-            this.btnSalir.FocusRectangle = true;
-            this.btnSalir.Font = new System.Drawing.Font("Trebuchet MS", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnSalir.ForeColor = System.Drawing.Color.White;
-            this.btnSalir.Image = null;
-            this.btnSalir.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.btnSalir.ImageBorderColor = System.Drawing.Color.Red;
-            this.btnSalir.ImageFocused = null;
-            this.btnSalir.ImageInactive = null;
-            this.btnSalir.ImageMouseOver = global::StephSoft.Properties.Resources._0000s_0001s_0000_salir_a;
-            this.btnSalir.ImageNormal = global::StephSoft.Properties.Resources._0000s_0001s_0000_salir;
-            this.btnSalir.ImagePressed = null;
-            this.btnSalir.ImageSize = new System.Drawing.Size(44, 44);
-            this.btnSalir.KeyButton = System.Windows.Forms.Keys.F1;
-            this.btnSalir.KeyButtonView = false;
-            this.btnSalir.Location = new System.Drawing.Point(908, 5);
-            this.btnSalir.ModeGradient = System.Drawing.Drawing2D.LinearGradientMode.Vertical;
-            this.btnSalir.MouseOverColor = System.Drawing.Color.Red;
-            this.btnSalir.Name = "btnSalir";
-            this.btnSalir.OffsetPressedContent = true;
-            this.btnSalir.Size = new System.Drawing.Size(80, 70);
-            this.btnSalir.TabIndex = 15;
-            this.btnSalir.Text = "Salir";
-            this.btnSalir.TextDropShadow = true;
-            this.btnSalir.UseVisualStyleBackColor = false;
-            this.btnSalir.Click += new System.EventHandler(this.btnSalir_Click);
-            // 
-            // btnEliminar
-            // 
-            this.btnEliminar.Anchor = System.Windows.Forms.AnchorStyles.Right;
-            this.btnEliminar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(108)))), ((int)(((byte)(114)))));
-            this.btnEliminar.BorderColor = System.Drawing.Color.Red;
-            this.btnEliminar.BorderFocusColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(108)))), ((int)(((byte)(114)))));
-            this.btnEliminar.BorderMouseOverColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.btnEliminar.BorderNoFocusColor = System.Drawing.Color.Maroon;
-            this.btnEliminar.FocusRectangle = true;
-            this.btnEliminar.Font = new System.Drawing.Font("Trebuchet MS", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnEliminar.ForeColor = System.Drawing.Color.White;
-            this.btnEliminar.Image = null;
-            this.btnEliminar.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.btnEliminar.ImageBorderColor = System.Drawing.Color.Red;
-            this.btnEliminar.ImageFocused = null;
-            this.btnEliminar.ImageInactive = null;
-            this.btnEliminar.ImageMouseOver = global::StephSoft.Properties.Resources._0000s_0000s_0002_cancelar_a;
-            this.btnEliminar.ImageNormal = global::StephSoft.Properties.Resources._0000s_0000s_0002_cancelar;
-            this.btnEliminar.ImagePressed = null;
-            this.btnEliminar.ImageSize = new System.Drawing.Size(44, 44);
-            this.btnEliminar.KeyButton = System.Windows.Forms.Keys.F1;
-            this.btnEliminar.KeyButtonView = false;
-            this.btnEliminar.Location = new System.Drawing.Point(662, 5);
-            this.btnEliminar.ModeGradient = System.Drawing.Drawing2D.LinearGradientMode.Vertical;
-            this.btnEliminar.MouseOverColor = System.Drawing.Color.Red;
-            this.btnEliminar.Name = "btnEliminar";
-            this.btnEliminar.OffsetPressedContent = true;
-            this.btnEliminar.Size = new System.Drawing.Size(80, 70);
-            this.btnEliminar.TabIndex = 12;
-            this.btnEliminar.Text = "Cancelar Cita";
-            this.btnEliminar.TextDropShadow = true;
-            this.btnEliminar.UseVisualStyleBackColor = false;
-            this.btnEliminar.Click += new System.EventHandler(this.btnEliminar_Click);
-            // 
-            // btnNuevo
-            // 
-            this.btnNuevo.Anchor = System.Windows.Forms.AnchorStyles.Right;
-            this.btnNuevo.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(108)))), ((int)(((byte)(114)))));
-            this.btnNuevo.BorderColor = System.Drawing.Color.Red;
-            this.btnNuevo.BorderFocusColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(108)))), ((int)(((byte)(114)))));
-            this.btnNuevo.BorderMouseOverColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.btnNuevo.BorderNoFocusColor = System.Drawing.Color.Maroon;
-            this.btnNuevo.FocusRectangle = true;
-            this.btnNuevo.Font = new System.Drawing.Font("Trebuchet MS", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnNuevo.ForeColor = System.Drawing.Color.White;
-            this.btnNuevo.Image = null;
-            this.btnNuevo.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.btnNuevo.ImageBorderColor = System.Drawing.Color.Red;
-            this.btnNuevo.ImageFocused = null;
-            this.btnNuevo.ImageInactive = null;
-            this.btnNuevo.ImageMouseOver = global::StephSoft.Properties.Resources._0000s_0000s_0001_agregar_a;
-            this.btnNuevo.ImageNormal = global::StephSoft.Properties.Resources._0000s_0000s_0001_agregar;
-            this.btnNuevo.ImagePressed = null;
-            this.btnNuevo.ImageSize = new System.Drawing.Size(44, 44);
-            this.btnNuevo.KeyButton = System.Windows.Forms.Keys.F1;
-            this.btnNuevo.KeyButtonView = false;
-            this.btnNuevo.Location = new System.Drawing.Point(580, 5);
-            this.btnNuevo.ModeGradient = System.Drawing.Drawing2D.LinearGradientMode.Vertical;
-            this.btnNuevo.MouseOverColor = System.Drawing.Color.Red;
-            this.btnNuevo.Name = "btnNuevo";
-            this.btnNuevo.OffsetPressedContent = true;
-            this.btnNuevo.Size = new System.Drawing.Size(80, 70);
-            this.btnNuevo.TabIndex = 10;
-            this.btnNuevo.Text = "Nuevo";
-            this.btnNuevo.TextDropShadow = true;
-            this.btnNuevo.UseVisualStyleBackColor = false;
-            this.btnNuevo.Click += new System.EventHandler(this.btnNuevo_Click);
-            // 
             // pictureBox1
             // 
             this.pictureBox1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
@@ -639,6 +628,17 @@
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox1.TabIndex = 25;
             this.pictureBox1.TabStop = false;
+            // 
+            // label42
+            // 
+            this.label42.AutoSize = true;
+            this.label42.Font = new System.Drawing.Font("Microsoft Sans Serif", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label42.ForeColor = System.Drawing.Color.White;
+            this.label42.Location = new System.Drawing.Point(21, 9);
+            this.label42.Name = "label42";
+            this.label42.Size = new System.Drawing.Size(138, 55);
+            this.label42.TabIndex = 24;
+            this.label42.Text = "Citas";
             // 
             // frmCitas
             // 

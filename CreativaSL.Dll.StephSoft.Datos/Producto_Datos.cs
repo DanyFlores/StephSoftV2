@@ -443,18 +443,27 @@ namespace CreativaSL.Dll.StephSoft.Datos
             }
         }
 
-        public int GenerarNuevaClaveProduccion(string Conexion, bool EsEmpleado, string IDEmpleado, string IDProducto, decimal Cantidad, string IDSucursal, string IDUsuario)
+        public GenerarClave GenerarNuevaClaveProduccion(string Conexion, bool EsEmpleado, string IDEmpleado, string IDProducto, decimal Cantidad, string IDSucursal, string IDUsuario)
         {
             try
             {
-                object[] Parametros = { EsEmpleado, IDEmpleado, IDProducto, Cantidad, IDSucursal, IDUsuario };
-                object Result = SqlHelper.ExecuteScalar(Conexion, "Produccion.spCSLDB_set_GenerarClavesProduccion", Parametros);
-                int Resultado = 0;
-                if (Result != null)
+                GenerarClave generarClave = new GenerarClave();
+                object[] Parametros = { EsEmpleado, IDEmpleado, IDProducto, Cantidad, IDSucursal, IDUsuario};
+                SqlDataReader dr = SqlHelper.ExecuteReader(Conexion, "Produccion.spCSLDB_set_GenerarClavesProduccion", Parametros);
+                while(dr.Read())
                 {
-                    int.TryParse(Result.ToString(), out Resultado);
+                    generarClave._Resultado = dr.IsDBNull(dr.GetOrdinal("Resultado")) ? -1 : dr.GetInt32(dr.GetOrdinal("Resultado"));
+                    generarClave._ClavesProduccion = dr.IsDBNull(dr.GetOrdinal("Claves")) ? string.Empty : dr.GetString(dr.GetOrdinal("Claves"));
+                    break;
                 }
-                return Resultado;
+                dr.Close();
+                //int Resultado = 0;
+                //if (dr != null)
+                //{
+                //    int.TryParse(dr.ToString(), out Resultado);
+                //}
+                //return Resultado;
+                return generarClave;
             }
             catch (Exception ex)
             {

@@ -54,6 +54,7 @@
     <Compile Include="FormaPago.cs" />
     <Compile Include="Garantia.cs" />
     <Compile Include="Gastos.cs" />
+    <Compile Include="GenerarClave.cs" />
     <Compile Include="Home.cs" />
     <Compile Include="Horario.cs" />
     <Compile Include="MobiliarioResguardo.cs" />

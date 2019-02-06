@@ -20,6 +20,7 @@ namespace StephSoft
         bool EsEmpleado = false;
         Usuario DatosEmpleado = new Usuario();
         private Producto Actual = new Producto();
+         GenerarClave clave = new GenerarClave();
 
         public frmNuevaClaveProduccion(Usuario _Empleado)
         {
@@ -93,27 +94,29 @@ namespace StephSoft
         {
             try
             {
+                
                 this.txtMensajeError.Visible = false;
                 List<Error> Errores = this.ValidarDatos();
                 if (Errores.Count == 0)
                 {
                     Producto_Negocio ProdNeg = new Producto_Negocio();
-                    int Result = ProdNeg.GenerarNuevaClaveProduccion(Comun.Conexion, EsEmpleado, DatosEmpleado != null ? DatosEmpleado.IDEmpleado : string.Empty, Actual.IDProducto, this.ObtenerCantidad(), Comun.IDSucursalCaja, Comun.IDUsuario);
-                    if(Result == 1)
+                    GenerarClave Result = ProdNeg.GenerarNuevaClaveProduccion(Comun.Conexion, EsEmpleado, DatosEmpleado != null ? DatosEmpleado.IDEmpleado : string.Empty, Actual.IDProducto, this.ObtenerCantidad(), Comun.IDSucursalCaja, Comun.IDUsuario);
+
+                    if (Result._Resultado == 1)
                     {
-                        MessageBox.Show("Datos guardados correctamente.", Comun.Sistema, MessageBoxButtons.OK, MessageBoxIcon.Information);
+                        MessageBox.Show(string.Format("Datos guardados correctamente. Las claves generadas son: {0}", Result._ClavesProduccion), Comun.Sistema, MessageBoxButtons.OK, MessageBoxIcon.Information);
                         this.DialogResult = DialogResult.OK;
                     }
                     else
                     {
                         string Message = string.Empty;
-                        switch (Result)
+                        switch (Result._Resultado)
                         {
                             case -2:
                                 Message = "No hay existencias suficientes para generar las claves.";
                                 break;
                             default:
-                                Message = "Error al guardar los datos. Intente nuevamente. ";
+                                Message = "Error al guardar los datos. Intente nuevamente.";
                                 break;
                         }
                         MessageBox.Show(Message, Comun.Sistema, MessageBoxButtons.OK, MessageBoxIcon.Information);

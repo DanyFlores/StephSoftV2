@@ -120,3 +120,15 @@ C:\Steph\StephSoft\CreativaSL.Dll.StephSoft.Negocio\obj\Debug\CreativaSL.Dll.Ste
 C:\Steph\StephSoft\CreativaSL.Dll.StephSoft.Negocio\obj\Debug\CreativaSL.Dll.StepthSoft.Negocio.csproj.CopyComplete
 C:\Steph\StephSoft\CreativaSL.Dll.StephSoft.Negocio\obj\Debug\CreativaSL.Dll.StephSoft.Negocio.dll
 C:\Steph\StephSoft\CreativaSL.Dll.StephSoft.Negocio\obj\Debug\CreativaSL.Dll.StephSoft.Negocio.pdb
+C:\Users\Creativa-PC\Documents\Visual Studio 2017\Project\StephSoft\CreativaSL.Dll.StephSoft.Negocio\bin\Debug\CreativaSL.Dll.StephSoft.Negocio.dll
+C:\Users\Creativa-PC\Documents\Visual Studio 2017\Project\StephSoft\CreativaSL.Dll.StephSoft.Negocio\bin\Debug\CreativaSL.Dll.StephSoft.Negocio.pdb
+C:\Users\Creativa-PC\Documents\Visual Studio 2017\Project\StephSoft\CreativaSL.Dll.StephSoft.Negocio\bin\Debug\CreativaSL.Dll.StephSoft.Datos.dll
+C:\Users\Creativa-PC\Documents\Visual Studio 2017\Project\StephSoft\CreativaSL.Dll.StephSoft.Negocio\bin\Debug\CreativaSL.Dll.StephSoft.Global.dll
+C:\Users\Creativa-PC\Documents\Visual Studio 2017\Project\StephSoft\CreativaSL.Dll.StephSoft.Negocio\bin\Debug\Microsoft.ApplicationBlocks.Data.dll
+C:\Users\Creativa-PC\Documents\Visual Studio 2017\Project\StephSoft\CreativaSL.Dll.StephSoft.Negocio\bin\Debug\CreativaSL.Dll.StephSoft.Datos.pdb
+C:\Users\Creativa-PC\Documents\Visual Studio 2017\Project\StephSoft\CreativaSL.Dll.StephSoft.Negocio\bin\Debug\CreativaSL.Dll.StephSoft.Global.pdb
+C:\Users\Creativa-PC\Documents\Visual Studio 2017\Project\StephSoft\CreativaSL.Dll.StephSoft.Negocio\obj\Debug\CreativaSL.Dll.StepthSoft.Negocio.csprojAssemblyReference.cache
+C:\Users\Creativa-PC\Documents\Visual Studio 2017\Project\StephSoft\CreativaSL.Dll.StephSoft.Negocio\obj\Debug\CreativaSL.Dll.StepthSoft.Negocio.csproj.CoreCompileInputs.cache
+C:\Users\Creativa-PC\Documents\Visual Studio 2017\Project\StephSoft\CreativaSL.Dll.StephSoft.Negocio\obj\Debug\CreativaSL.Dll.StepthSoft.Negocio.csproj.CopyComplete
+C:\Users\Creativa-PC\Documents\Visual Studio 2017\Project\StephSoft\CreativaSL.Dll.StephSoft.Negocio\obj\Debug\CreativaSL.Dll.StephSoft.Negocio.dll
+C:\Users\Creativa-PC\Documents\Visual Studio 2017\Project\StephSoft\CreativaSL.Dll.StephSoft.Negocio\obj\Debug\CreativaSL.Dll.StephSoft.Negocio.pdb

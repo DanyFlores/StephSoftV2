@@ -335,14 +335,16 @@ namespace StephSoft
                         Errores.Add(new Error { Numero = (Aux += 1), Descripcion = "Debe seleccionar un género de la lista.", ControlSender = this.cmbGenero });
                 }
 
-                if (string.IsNullOrEmpty(this.txtCorreo.Text.Trim()))
-                    Errores.Add(new Error { Numero = (Aux += 1), Descripcion = "Debe ingresar el correo electrónico del cliente.", ControlSender = this.txtCorreo });
-                else
+                if (!string.IsNullOrEmpty(this.txtCorreo.Text.Trim()))
+                //    Errores.Add(new Error { Numero = (Aux += 1), Descripcion = "Debe ingresar el correo electrónico del cliente.", ControlSender = this.txtCorreo });
+                //else
                 {
                     if (!Validar.IsValidMail(this.txtCorreo.Text.Trim()))
                         Errores.Add(new Error { Numero = (Aux += 1), Descripcion = "Debe ingresar una dirección de correo electrónico válida.", ControlSender = this.txtCorreo });
                 }
-                if (!string.IsNullOrEmpty(this.txtTelefono.Text.Trim()))
+                if (string.IsNullOrEmpty(this.txtTelefono.Text.Trim()))
+                    Errores.Add(new Error { Numero = (Aux += 1), Descripcion = "Debe ingresar un número telefónico del cliente.", ControlSender = this.txtTelefono });
+                else
                 {
                     if (!Validar.IsValidPhoneNumber(this.txtTelefono.Text.Trim()))
                         Errores.Add(new Error { Numero = (Aux += 1), Descripcion = "Debe ingresar un número telefónico válido.", ControlSender = this.txtTelefono });

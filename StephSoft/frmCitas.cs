@@ -257,13 +257,13 @@ namespace StephSoft
             try
             {
                 if (this.dgvCitas.SelectedRows.Count == 1)
-                {
+                {                   
                     Int32 RowToDelete = this.dgvCitas.Rows.GetFirstRow(DataGridViewElementStates.Selected);
                     Cita DatosAux = this.ObtenerDatosCita(RowToDelete);
                     if (!string.IsNullOrEmpty(DatosAux.IDCita))
                     {
                         if (DatosAux.IDStatusCita == 1)
-                        {
+                        {                          
                             frmCancelarCita Cancelar = new frmCancelarCita(DatosAux.IDCita);
                             Cancelar.ShowDialog();
                             Cancelar.Dispose();

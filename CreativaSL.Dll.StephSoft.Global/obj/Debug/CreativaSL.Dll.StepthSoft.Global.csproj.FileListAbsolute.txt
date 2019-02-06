@@ -44,3 +44,9 @@ C:\Steph\StephSoft\CreativaSL.Dll.StephSoft.Global\obj\Debug\CreativaSL.Dll.Step
 C:\Steph\StephSoft\CreativaSL.Dll.StephSoft.Global\obj\Debug\CreativaSL.Dll.StepthSoft.Global.csproj.CoreCompileInputs.cache
 C:\Steph\StephSoft\CreativaSL.Dll.StephSoft.Global\obj\Debug\CreativaSL.Dll.StephSoft.Global.dll
 C:\Steph\StephSoft\CreativaSL.Dll.StephSoft.Global\obj\Debug\CreativaSL.Dll.StephSoft.Global.pdb
+C:\Users\Creativa-PC\Documents\Visual Studio 2017\Project\StephSoft\CreativaSL.Dll.StephSoft.Global\bin\Debug\CreativaSL.Dll.StephSoft.Global.dll
+C:\Users\Creativa-PC\Documents\Visual Studio 2017\Project\StephSoft\CreativaSL.Dll.StephSoft.Global\bin\Debug\CreativaSL.Dll.StephSoft.Global.pdb
+C:\Users\Creativa-PC\Documents\Visual Studio 2017\Project\StephSoft\CreativaSL.Dll.StephSoft.Global\obj\Debug\CreativaSL.Dll.StepthSoft.Global.csprojAssemblyReference.cache
+C:\Users\Creativa-PC\Documents\Visual Studio 2017\Project\StephSoft\CreativaSL.Dll.StephSoft.Global\obj\Debug\CreativaSL.Dll.StepthSoft.Global.csproj.CoreCompileInputs.cache
+C:\Users\Creativa-PC\Documents\Visual Studio 2017\Project\StephSoft\CreativaSL.Dll.StephSoft.Global\obj\Debug\CreativaSL.Dll.StephSoft.Global.dll
+C:\Users\Creativa-PC\Documents\Visual Studio 2017\Project\StephSoft\CreativaSL.Dll.StephSoft.Global\obj\Debug\CreativaSL.Dll.StephSoft.Global.pdb

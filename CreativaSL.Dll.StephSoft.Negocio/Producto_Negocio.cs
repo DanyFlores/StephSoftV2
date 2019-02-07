@@ -247,7 +247,7 @@ namespace CreativaSL.Dll.StephSoft.Negocio
         }
 
 
-        public int GenerarNuevaClaveProduccion(string Conexion, bool EsEmpleado, string IDEmpleado, string IDProducto, decimal Cantidad, string IDSucursal, string IDUsuario)
+        public GenerarClave GenerarNuevaClaveProduccion(string Conexion, bool EsEmpleado, string IDEmpleado, string IDProducto, decimal Cantidad, string IDSucursal, string IDUsuario)
         {
             try
             {

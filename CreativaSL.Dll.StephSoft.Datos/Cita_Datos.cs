@@ -102,7 +102,8 @@ namespace CreativaSL.Dll.StephSoft.Datos
         {
             try
             {
-                DataSet Ds = SqlHelper.ExecuteDataset(Datos.Conexion, "spCSLDB_get_CitasPendientesDelDia");
+                //spCSLDB_get_CitasPendientesDelDia
+                DataSet Ds = SqlHelper.ExecuteDataset(Datos.Conexion, "[dbo].[spCSLDB_get_Citas_Consulta_Prueba]",Datos.IDSucursal);
                 Datos.TablaDatos = new DataTable();
                 if (Ds != null)
                     if (Ds.Tables.Count == 1)

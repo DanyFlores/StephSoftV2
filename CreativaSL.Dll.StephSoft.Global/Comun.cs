@@ -21,6 +21,15 @@ namespace CreativaSL.Dll.StephSoft.Global
         private static string _Sistema;
         private static DataTable _TablaPermisos;
 
+        private static int _tipoPapel;
+
+        public static int tipoPapel
+        {
+            get { return _tipoPapel; }
+            set { _tipoPapel = value; }
+        }
+
+
         public static string Conexion
         {
             get { return _Conexion; }

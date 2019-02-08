@@ -25,6 +25,7 @@ namespace StephSoft
             try
             {
                 InitializeComponent();
+                Comun.tipoPapel = int.Parse(ConfigurationManager.AppSettings.Get("tipoPapel"));
             }
             catch (Exception ex)
             {

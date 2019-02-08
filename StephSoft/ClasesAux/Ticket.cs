@@ -123,11 +123,29 @@ namespace StephSoft.ClasesAux
 
         int PositionY = 0;
 
+        //private void ImpresionTicket()
+        //{
+        //    PrintDocument Documento = new PrintDocument();
+        //    PaperSize Plantilla;
+        //    Plantilla = new PaperSize("Ticket", 275, 1000);
+        //    Documento.DefaultPageSettings.PaperSize = Plantilla;
+        //    Documento.PrintPage += new PrintPageEventHandler(Document_PrintPage);
+        //    PrinterSettings Ps = new PrinterSettings();
+        //    Ps.PrinterName = Comun.Impresora;
+        //    Ps.DefaultPageSettings.PaperSize = Plantilla;
+        //    Documento.PrinterSettings = Ps;
+        //    if (Ps.IsValid)
+        //        Documento.Print();
+        //    else
+        //        return;
+        //    //throw new Exception("No se pudo conectar con la impresora.");
+        //}
+
         private void ImpresionTicket()
         {
             PrintDocument Documento = new PrintDocument();
             PaperSize Plantilla;
-            Plantilla = new PaperSize("Ticket", 275, 1000);
+            Plantilla = new PaperSize("Ticket", 200, 1000);
             Documento.DefaultPageSettings.PaperSize = Plantilla;
             Documento.PrintPage += new PrintPageEventHandler(Document_PrintPage);
             PrinterSettings Ps = new PrinterSettings();
@@ -141,22 +159,89 @@ namespace StephSoft.ClasesAux
             //throw new Exception("No se pudo conectar con la impresora.");
         }
 
+
+
+        //void Document_PrintPage(object sender, PrintPageEventArgs e)
+        //{
+
+        //    PrintDocument dc = (PrintDocument)sender;
+        //    PaperSize plantilla = new PaperSize("Ticket", 275, 1000);
+        //    switch (TipoTicket)
+        //    {
+        //        case 1: plantilla = new PaperSize("Ticket", 275, 600);
+        //            break;
+        //        case 2: plantilla = new PaperSize("Ticket", 275, 300);
+        //            break;
+        //        case 3: plantilla = new PaperSize("Ticket", 275, 10000);
+        //            break;
+        //        case 4: plantilla = new PaperSize("Ticket", 275, 300);
+        //            break;
+        //    }
+        //    dc.DefaultPageSettings.PaperSize = plantilla;
+        //    PageSettings Ps = dc.DefaultPageSettings;
+        //    Graphics G = e.Graphics;
+        //    SolidBrush Brush = new SolidBrush(Color.Black);
+        //    this.AgregarEncabezado(ref G, Ps);
+
+        //    switch (TipoTicket)
+        //    {
+
+        //        case 1:
+        //        case 2: this.AgregarEncabezadoContenido(ref G, Ps);
+        //            this.AgregarDatosContenido(ref G, ResumenVenta.ListaDetalle, Ps);
+        //            this.AgregarTotales(ref G, Ps);
+        //            this.AgregarPieTicket(ref G, Ps);
+        //            break;
+        //        case 3: this.CuerpoTicketCaja(ref G, Ps);
+        //            break;
+        //        case 4: this.CuerpoTicketGarantia(ref G, Ps);
+        //            break;
+        //    }
+
+
+        //}
         void Document_PrintPage(object sender, PrintPageEventArgs e)
         {
 
             PrintDocument dc = (PrintDocument)sender;
-            PaperSize plantilla = new PaperSize("Ticket", 275, 1000);
-            switch (TipoTicket)
+            PaperSize plantilla = new PaperSize("Ticket", 200, 1000);
+            if(Comun.tipoPapel != 1)
             {
-                case 1: plantilla = new PaperSize("Ticket", 275, 600);
-                    break;
-                case 2: plantilla = new PaperSize("Ticket", 275, 300);
-                    break;
-                case 3: plantilla = new PaperSize("Ticket", 275, 10000);
-                    break;
-                case 4: plantilla = new PaperSize("Ticket", 275, 300);
-                    break;
+                switch (TipoTicket)
+                {
+                    case 1:
+                        plantilla = new PaperSize("Ticket", 200, 600);
+                        break;
+                    case 2:
+                        plantilla = new PaperSize("Ticket", 200, 300);
+                        break;
+                    case 3:
+                        plantilla = new PaperSize("Ticket", 200, 10000);
+                        break;
+                    case 4:
+                        plantilla = new PaperSize("Ticket", 200, 300);
+                        break;
+                }
             }
+            else
+            {
+                switch (TipoTicket)
+                {
+                    case 1:
+                        plantilla = new PaperSize("Ticket", 275, 600);
+                        break;
+                    case 2:
+                        plantilla = new PaperSize("Ticket", 275, 300);
+                        break;
+                    case 3:
+                        plantilla = new PaperSize("Ticket", 275, 10000);
+                        break;
+                    case 4:
+                        plantilla = new PaperSize("Ticket", 275, 300);
+                        break;
+                }
+            }
+            
             dc.DefaultPageSettings.PaperSize = plantilla;
             PageSettings Ps = dc.DefaultPageSettings;
             Graphics G = e.Graphics;
@@ -166,14 +251,17 @@ namespace StephSoft.ClasesAux
             switch (TipoTicket)
             {
                 case 1:
-                case 2: this.AgregarEncabezadoContenido(ref G, Ps);
+                case 2:
+                    this.AgregarEncabezadoContenido(ref G, Ps);
                     this.AgregarDatosContenido(ref G, ResumenVenta.ListaDetalle, Ps);
                     this.AgregarTotales(ref G, Ps);
                     this.AgregarPieTicket(ref G, Ps);
                     break;
-                case 3: this.CuerpoTicketCaja(ref G, Ps);
+                case 3:
+                    this.CuerpoTicketCaja(ref G, Ps);
                     break;
-                case 4: this.CuerpoTicketGarantia(ref G, Ps);
+                case 4:
+                    this.CuerpoTicketGarantia(ref G, Ps);
                     break;
             }
 
@@ -197,14 +285,14 @@ namespace StephSoft.ClasesAux
                 if (!string.IsNullOrEmpty(Comun.RegimenFiscal))
                     this.AddTitulos(ref G, Ps, Comun.RegimenFiscal, new Font("Arial", 7, FontStyle.Bold), StringAlignment.Center, Ps.PaperSize.Width / 2);
                 if (!string.IsNullOrEmpty(Comun.NombreComercial))
-                    this.AddTitulos(ref G, Ps, Comun.NombreComercial, new Font("Arial", 9, FontStyle.Bold), StringAlignment.Center, Ps.PaperSize.Width / 2);
+                    this.AddTitulos(ref G, Ps, Comun.NombreComercial, new Font("Arial", 7, FontStyle.Bold), StringAlignment.Center, Ps.PaperSize.Width / 2);
                 if (!string.IsNullOrEmpty(Comun.Eslogan))
-                    this.AddTitulos(ref G, Ps, Comun.Eslogan, new Font("Arial", 9, FontStyle.Bold), StringAlignment.Center, Ps.PaperSize.Width / 2);
+                    this.AddTitulos(ref G, Ps, Comun.Eslogan, new Font("Arial", 7, FontStyle.Bold), StringAlignment.Center, Ps.PaperSize.Width / 2);
                 if (!string.IsNullOrEmpty(Comun.Direccion))
-                    this.AddTitulos(ref G, Ps, Comun.Direccion, new Font("Arial", 8, FontStyle.Bold), StringAlignment.Center, Ps.PaperSize.Width / 2);
+                    this.AddTitulos(ref G, Ps, Comun.Direccion, new Font("Arial", 7, FontStyle.Bold), StringAlignment.Center, Ps.PaperSize.Width / 2);
                 if (!string.IsNullOrEmpty(Comun.RFC))
                     //this.addTextCenter("RFC. " + Comun.RFC, ref g, ps.PaperSize.Width, ps.PaperSize.Height);
-                    this.AddTitulos(ref G, Ps, "RFC. " + Comun.RFC, new Font("Arial", 8, FontStyle.Bold), StringAlignment.Center, Ps.PaperSize.Width / 2);
+                    this.AddTitulos(ref G, Ps, "RFC. " + Comun.RFC, new Font("Arial", 7, FontStyle.Bold), StringAlignment.Center, Ps.PaperSize.Width / 2);
                 if (!string.IsNullOrEmpty(Comun.Sucursal))
                     //this.addTextCenter("SUCURSAL: " + Comun.Nombre_Sucursal, ref g, ps.PaperSize.Width, ps.PaperSize.Height);
                     this.AddTitulos(ref G, Ps, "SUCURSAL: " + Comun.Sucursal, new Font("Arial", 8, FontStyle.Bold), StringAlignment.Center, Ps.PaperSize.Width / 2);
@@ -216,6 +304,41 @@ namespace StephSoft.ClasesAux
             }
         }
 
+        //private void AgregarEncabezadoContenido(ref Graphics G, PageSettings Ps)
+        //{
+        //    try
+        //    {
+        //        SolidBrush Brush = new SolidBrush(Color.Black);
+        //        PointF Pf = new PointF();
+        //        StringFormat Sf = new StringFormat();
+        //        Pf.X = 10;
+        //        Pf.Y = PositionY += 25;
+        //        Sf.Alignment = StringAlignment.Near;
+        //        switch (TipoTicket)
+        //        {
+        //            case 1: G.DrawString("DETALLE DE VENTA", new Font("Arial", 8, FontStyle.Bold), Brush, Pf, Sf);
+        //                break;
+        //            case 2: G.DrawString("DETALLE DEL SERVICIO", new Font("Arial", 8), Brush, Pf, Sf);
+        //                break;
+        //        }
+        //        Pf.X = 10;
+        //        Pf.Y = PositionY += 25;
+        //        Sf.Alignment = StringAlignment.Near;
+        //        G.DrawString("Cant", new Font("Arial", 8), Brush, Pf, Sf);
+        //        Pf.X = 40;
+        //        G.DrawString("Concepto", new Font("Arial", 8), Brush, Pf, Sf);
+        //        Pf.X = 190;
+        //        Sf.Alignment = StringAlignment.Far;
+        //        G.DrawString("P/U", new Font("Arial", 8), Brush, Pf, Sf);
+        //        Pf.X = Ps.PaperSize.Width - 15;
+        //        G.DrawString("Importe", new Font("Arial", 8), Brush, Pf, Sf);
+
+        //    }
+        //    catch (Exception ex)
+        //    {
+        //        throw ex;
+        //    }
+        //}
         private void AgregarEncabezadoContenido(ref Graphics G, PageSettings Ps)
         {
             try
@@ -223,27 +346,29 @@ namespace StephSoft.ClasesAux
                 SolidBrush Brush = new SolidBrush(Color.Black);
                 PointF Pf = new PointF();
                 StringFormat Sf = new StringFormat();
-                Pf.X = 10;
+                Pf.X = 0;
                 Pf.Y = PositionY += 25;
                 Sf.Alignment = StringAlignment.Near;
                 switch (TipoTicket)
                 {
-                    case 1: G.DrawString("DETALLE DE VENTA", new Font("Arial", 8, FontStyle.Bold), Brush, Pf, Sf);
+                    case 1:
+                        G.DrawString("DETALLE DE VENTA", new Font("Arial", 7, FontStyle.Bold), Brush, Pf, Sf);
                         break;
-                    case 2: G.DrawString("DETALLE DEL SERVICIO", new Font("Arial", 8), Brush, Pf, Sf);
+                    case 2:
+                        G.DrawString("DETALLE DEL SERVICIO", new Font("Arial", 7), Brush, Pf, Sf);
                         break;
                 }
                 Pf.X = 10;
                 Pf.Y = PositionY += 25;
                 Sf.Alignment = StringAlignment.Near;
-                G.DrawString("Cant", new Font("Arial", 8), Brush, Pf, Sf);
+                G.DrawString("Cant", new Font("Arial", 7), Brush, Pf, Sf);
                 Pf.X = 40;
-                G.DrawString("Concepto", new Font("Arial", 8), Brush, Pf, Sf);
+                G.DrawString("Concepto", new Font("Arial", 7), Brush, Pf, Sf);
                 Pf.X = 190;
                 Sf.Alignment = StringAlignment.Far;
-                G.DrawString("P/U", new Font("Arial", 8), Brush, Pf, Sf);
+                //G.DrawString("P/U", new Font("Arial", 7), Brush, Pf, Sf);
                 Pf.X = Ps.PaperSize.Width - 15;
-                G.DrawString("Importe", new Font("Arial", 8), Brush, Pf, Sf);
+                G.DrawString("Importe", new Font("Arial", 7), Brush, Pf, Sf);
 
             }
             catch (Exception ex)
@@ -251,7 +376,90 @@ namespace StephSoft.ClasesAux
                 throw ex;
             }
         }
+        //private void AgregarDatosContenido(ref Graphics G, List<VentaDetalle> DetalleVenta, PageSettings Ps)
+        //{
+        //    try
+        //    {
+        //        SolidBrush Brush = new SolidBrush(Color.Black);
+        //        PointF pf = new PointF();
+        //        StringFormat sf = new StringFormat();
+        //        bool BandDescuento = false;
+        //        foreach (VentaDetalle Detalle in DetalleVenta)
+        //        {
+        //            sf.Alignment = StringAlignment.Near;
+        //            pf.Y = PositionY += 15;
+        //            pf.X = 10;
+        //            G.DrawString(string.Format("{0:F2}", Detalle.CantidadVenta), new Font("Arial", 8), Brush, pf, sf);
+        //            pf.X = 40;
+        //            if (Detalle.NombreProducto.Length > 12)
+        //            {
+        //                int aux = 12;
+        //                while (G.MeasureString(Detalle.NombreProducto.Substring(0, aux), new Font("Arial", 8)).Width < 95)
+        //                {
+        //                    aux++;
+        //                    if (Detalle.NombreProducto.Length < aux)
+        //                        break;
+        //                }
+        //                G.DrawString(Detalle.NombreProducto.Substring(0, aux - 1), new Font("Arial", 8), Brush, pf, sf);
+        //            }
+        //            else
+        //                G.DrawString(Detalle.NombreProducto, new Font("Arial", 8), Brush, pf, sf);
+        //            sf.Alignment = StringAlignment.Far;
+        //            pf.X = 190;
+        //            G.DrawString(string.Format("{0:c}", Detalle.PrecioNormal), new Font("Arial", 8), Brush, pf, sf);
+        //            pf.X = Ps.PaperSize.Width - 15;
+        //            G.DrawString(string.Format("{0:c}", Detalle.Subtotal), new Font("Arial", 8), Brush, pf, sf);
+        //            if (Detalle.Descuento > 0)
+        //            {
+        //                pf.X = Ps.PaperSize.Width - 5;
+        //                G.DrawString("D", new Font("Arial", 8, FontStyle.Bold), Brush, pf, sf);
+        //                BandDescuento = true;
+        //            }
+        //        }
+        //        PositionY += 15;
+        //        if (BandDescuento)
+        //        {
+        //            pf.Y = PositionY;
+        //            this.AddMensajeTitle(ref G, Ps, " D E S C U E N T O S", new Font("Arial", 9, FontStyle.Bold), StringAlignment.Center, Ps.PaperSize.Width / 2);
+        //            pf.Y = PositionY += 15;
+        //            foreach (VentaDetalle Detalle in DetalleVenta)
+        //            {
+        //                if (Detalle.Descuento > 0)
+        //                {
+        //                    sf.Alignment = StringAlignment.Near;
+        //                    pf.X = 10;
+        //                    G.DrawString(ResumenVenta.CodigoVale, new Font("Arial", 8), Brush, pf, sf);
+        //                    sf.Alignment = StringAlignment.Far;
+        //                    pf.X = Ps.PaperSize.Width - 15;
+        //                    G.DrawString(string.Format("{0:c}", Detalle.Descuento * -1), new Font("Arial", 8), Brush, pf, sf);
+        //                    pf.Y = PositionY += 15;
+        //                }
+        //            }
+        //        }
 
+        //        PositionY += 15;
+        //        if (ResumenVenta.ListaProductos.Count > 0)
+        //        {
+        //            pf.Y = PositionY;
+        //            this.AddMensajeTitle(ref G, Ps, "TARJETAS DE REGALO", new Font("Arial", 9, FontStyle.Bold), StringAlignment.Center, Ps.PaperSize.Width / 2);
+        //            pf.Y = PositionY += 15;
+        //            foreach (Producto Item01 in ResumenVenta.ListaProductos)
+        //            {
+        //                sf.Alignment = StringAlignment.Near;
+        //                pf.X = 10;
+        //                G.DrawString(Item01.Clave, new Font("Arial", 8), Brush, pf, sf);
+        //                sf.Alignment = StringAlignment.Near;
+        //                pf.X = 90;
+        //                G.DrawString(Item01.NombreProducto, new Font("Arial", 8), Brush, pf, sf);
+        //                pf.Y = PositionY += 15;
+        //            }
+        //        }
+        //    }
+        //    catch (Exception ex)
+        //    {
+        //        throw ex;
+        //    }
+        //}
         private void AgregarDatosContenido(ref Graphics G, List<VentaDetalle> DetalleVenta, PageSettings Ps)
         {
             try
@@ -264,31 +472,31 @@ namespace StephSoft.ClasesAux
                 {
                     sf.Alignment = StringAlignment.Near;
                     pf.Y = PositionY += 15;
-                    pf.X = 10;
-                    G.DrawString(string.Format("{0:F2}", Detalle.CantidadVenta), new Font("Arial", 8), Brush, pf, sf);
+                    pf.X = 0;
+                    G.DrawString(string.Format("{0:F2}", Detalle.CantidadVenta), new Font("Arial", 7), Brush, pf, sf);
                     pf.X = 40;
                     if (Detalle.NombreProducto.Length > 12)
                     {
                         int aux = 12;
-                        while (G.MeasureString(Detalle.NombreProducto.Substring(0, aux), new Font("Arial", 8)).Width < 95)
+                        while (G.MeasureString(Detalle.NombreProducto.Substring(0, aux), new Font("Arial", 7)).Width < 95)
                         {
                             aux++;
                             if (Detalle.NombreProducto.Length < aux)
                                 break;
                         }
-                        G.DrawString(Detalle.NombreProducto.Substring(0, aux - 1), new Font("Arial", 8), Brush, pf, sf);
+                        G.DrawString(Detalle.NombreProducto.Substring(0, aux - 1), new Font("Arial", 7), Brush, pf, sf);
                     }
                     else
-                        G.DrawString(Detalle.NombreProducto, new Font("Arial", 8), Brush, pf, sf);
+                        G.DrawString(Detalle.NombreProducto, new Font("Arial", 7), Brush, pf, sf);
                     sf.Alignment = StringAlignment.Far;
-                    pf.X = 190;
-                    G.DrawString(string.Format("{0:c}", Detalle.PrecioNormal), new Font("Arial", 8), Brush, pf, sf);
+                    //pf.X = 190;
+                    //G.DrawString(string.Format("{0:c}", Detalle.PrecioNormal), new Font("Arial", 7), Brush, pf, sf);
                     pf.X = Ps.PaperSize.Width - 15;
-                    G.DrawString(string.Format("{0:c}", Detalle.Subtotal), new Font("Arial", 8), Brush, pf, sf);
+                    G.DrawString(string.Format("{0:c}", Detalle.Subtotal), new Font("Arial", 7), Brush, pf, sf);
                     if (Detalle.Descuento > 0)
                     {
                         pf.X = Ps.PaperSize.Width - 5;
-                        G.DrawString("D", new Font("Arial", 8, FontStyle.Bold), Brush, pf, sf);
+                        G.DrawString("D", new Font("Arial", 7, FontStyle.Bold), Brush, pf, sf);
                         BandDescuento = true;
                     }
                 }
@@ -296,7 +504,7 @@ namespace StephSoft.ClasesAux
                 if (BandDescuento)
                 {
                     pf.Y = PositionY;
-                    this.AddMensajeTitle(ref G, Ps, " D E S C U E N T O S", new Font("Arial", 9, FontStyle.Bold), StringAlignment.Center, Ps.PaperSize.Width / 2);
+                    this.AddMensajeTitle(ref G, Ps, " D E S C U E N T O S", new Font("Arial", 7, FontStyle.Bold), StringAlignment.Center, Ps.PaperSize.Width / 2);
                     pf.Y = PositionY += 15;
                     foreach (VentaDetalle Detalle in DetalleVenta)
                     {
@@ -304,10 +512,10 @@ namespace StephSoft.ClasesAux
                         {
                             sf.Alignment = StringAlignment.Near;
                             pf.X = 10;
-                            G.DrawString(ResumenVenta.CodigoVale, new Font("Arial", 8), Brush, pf, sf);
+                            G.DrawString(ResumenVenta.CodigoVale, new Font("Arial", 7), Brush, pf, sf);
                             sf.Alignment = StringAlignment.Far;
                             pf.X = Ps.PaperSize.Width - 15;
-                            G.DrawString(string.Format("{0:c}", Detalle.Descuento * -1), new Font("Arial", 8), Brush, pf, sf);
+                            G.DrawString(string.Format("{0:c}", Detalle.Descuento * -1), new Font("Arial", 7), Brush, pf, sf);
                             pf.Y = PositionY += 15;
                         }
                     }
@@ -317,16 +525,16 @@ namespace StephSoft.ClasesAux
                 if (ResumenVenta.ListaProductos.Count > 0)
                 {
                     pf.Y = PositionY;
-                    this.AddMensajeTitle(ref G, Ps, "TARJETAS DE REGALO", new Font("Arial", 9, FontStyle.Bold), StringAlignment.Center, Ps.PaperSize.Width / 2);
+                    this.AddMensajeTitle(ref G, Ps, "TARJETAS DE REGALO", new Font("Arial", 7, FontStyle.Bold), StringAlignment.Center, Ps.PaperSize.Width / 2);
                     pf.Y = PositionY += 15;
                     foreach (Producto Item01 in ResumenVenta.ListaProductos)
                     {
                         sf.Alignment = StringAlignment.Near;
                         pf.X = 10;
-                        G.DrawString(Item01.Clave, new Font("Arial", 8), Brush, pf, sf);
+                        G.DrawString(Item01.Clave, new Font("Arial", 7), Brush, pf, sf);
                         sf.Alignment = StringAlignment.Near;
                         pf.X = 90;
-                        G.DrawString(Item01.NombreProducto, new Font("Arial", 8), Brush, pf, sf);
+                        G.DrawString(Item01.NombreProducto, new Font("Arial", 7), Brush, pf, sf);
                         pf.Y = PositionY += 15;
                     }
                 }
@@ -336,7 +544,6 @@ namespace StephSoft.ClasesAux
                 throw ex;
             }
         }
-
         private void AgregarTotales(ref Graphics G, PageSettings Ps)
         {
             try
@@ -347,33 +554,33 @@ namespace StephSoft.ClasesAux
                 //==============================================================================================
                 Pf.Y = PositionY += 15;
                 Sf.Alignment = StringAlignment.Far;
-                Pf.X = 180;
-                G.DrawString(string.Format("SUBTOTAL"), new Font("Arial", 8), Brush, Pf, Sf);
+                Pf.X = 140;
+                G.DrawString(string.Format("SUBTOTAL"), new Font("Arial", 7), Brush, Pf, Sf);
                 Pf.X = Ps.PaperSize.Width - 15;
-                G.DrawString(string.Format("{0:c}", ResumenVenta.Subtotal), new Font("Arial", 8), Brush, Pf, Sf);
+                G.DrawString(string.Format("{0:c}", ResumenVenta.Subtotal), new Font("Arial", 7), Brush, Pf, Sf);
                 //==============================================================================================
                 Pf.Y = PositionY += 15;
                 Sf.Alignment = StringAlignment.Far;
-                Pf.X = 180;
+                Pf.X = 140;
                 G.DrawString(string.Format("DESCUENTO"), new Font("Arial", 8), Brush, Pf, Sf);
                 Pf.X = Ps.PaperSize.Width - 15;
-                G.DrawString(string.Format("{0:c}", ResumenVenta.Descuento), new Font("Arial", 8), Brush, Pf, Sf);
+                G.DrawString(string.Format("{0:c}", ResumenVenta.Descuento), new Font("Arial", 7), Brush, Pf, Sf);
                 //==============================================================================================
                 Pf.Y = PositionY += 15;
                 Sf.Alignment = StringAlignment.Far;
-                Pf.X = 180;
-                G.DrawString(string.Format("TOTAL"), new Font("Arial", 8), Brush, Pf, Sf);
+                Pf.X = 140;
+                G.DrawString(string.Format("TOTAL"), new Font("Arial", 7), Brush, Pf, Sf);
                 Pf.X = Ps.PaperSize.Width - 15;
-                G.DrawString(string.Format("{0:c}", ResumenVenta.Total), new Font("Arial", 8), Brush, Pf, Sf);
+                G.DrawString(string.Format("{0:c}", ResumenVenta.Total), new Font("Arial", 7), Brush, Pf, Sf);
                 //==============================================================================================
                 if (ResumenVenta.Comision > 0)
                 {
                     Pf.Y = PositionY += 15;
                     Sf.Alignment = StringAlignment.Far;
-                    Pf.X = 180;
-                    G.DrawString(string.Format("COMISIÓN POR PAGO"), new Font("Arial", 8), Brush, Pf, Sf);
+                    Pf.X = 140;
+                    G.DrawString(string.Format("COMISIÓN POR PAGO"), new Font("Arial", 7), Brush, Pf, Sf);
                     Pf.X = Ps.PaperSize.Width - 15;
-                    G.DrawString(string.Format("{0:c}", ResumenVenta.Comision), new Font("Arial", 8), Brush, Pf, Sf);
+                    G.DrawString(string.Format("{0:c}", ResumenVenta.Comision), new Font("Arial", 7), Brush, Pf, Sf);
                 }
                 //==============================================================================================
                 //Pf.Y = PositionY += 15;
@@ -387,18 +594,18 @@ namespace StephSoft.ClasesAux
                 {
                     Pf.Y = PositionY += 15;
                     Sf.Alignment = StringAlignment.Far;
-                    Pf.X = 180;
-                    G.DrawString(ItemFP.Descripcion.ToUpper(), new Font("Arial", 8), Brush, Pf, Sf);
+                    Pf.X = 140;
+                    G.DrawString(ItemFP.Descripcion.ToUpper(), new Font("Arial", 7), Brush, Pf, Sf);
                     Pf.X = Ps.PaperSize.Width - 15;
-                    G.DrawString(string.Format("{0:c}", ItemFP.MontoTotal), new Font("Arial", 8), Brush, Pf, Sf);
+                    G.DrawString(string.Format("{0:c}", ItemFP.MontoTotal), new Font("Arial", 7), Brush, Pf, Sf);
                 }
                 //==============================================================================================
                 Pf.Y = PositionY += 15;
                 Sf.Alignment = StringAlignment.Far;
-                Pf.X = 180;
-                G.DrawString(string.Format("CAMBIO"), new Font("Arial", 8), Brush, Pf, Sf);
+                Pf.X = 140;
+                G.DrawString(string.Format("CAMBIO"), new Font("Arial", 7), Brush, Pf, Sf);
                 Pf.X = Ps.PaperSize.Width - 15;
-                G.DrawString(string.Format("{0:c}", ResumenVenta.TotalCambio), new Font("Arial", 8), Brush, Pf, Sf);
+                G.DrawString(string.Format("{0:c}", ResumenVenta.TotalCambio), new Font("Arial", 7), Brush, Pf, Sf);
             }
             catch (Exception ex)
             {
@@ -430,9 +637,9 @@ namespace StephSoft.ClasesAux
                 int Aux = Ps.PaperSize.Width / 4;
                 Pf.X = Aux;
                 Pf.Y = PositionY;
-                G.DrawString(ResumenVenta.FechaHoraSistema.ToString("dd/MM/yyyy"), new Font("Arial", 8), Brush, Pf, Sf);
+                G.DrawString(ResumenVenta.FechaHoraSistema.ToString("dd/MM/yyyy"), new Font("Arial", 7), Brush, Pf, Sf);
                 Pf.X = Aux * 3;
-                G.DrawString(ResumenVenta.FechaHoraSistema.ToString("HH:mm:ss"), new Font("Arial", 8), Brush, Pf, Sf);
+                G.DrawString(ResumenVenta.FechaHoraSistema.ToString("HH:mm:ss"), new Font("Arial", 7), Brush, Pf, Sf);
                 Pf.Y = PositionY += 25;
 
 
@@ -441,7 +648,7 @@ namespace StephSoft.ClasesAux
                     this.AddMensajeTitle(ref G, Ps, ResumenVenta.TextoVenta.ToUpper(), new Font("Arial", 7, FontStyle.Bold), StringAlignment.Center, Ps.PaperSize.Width / 2);
                 }
 
-                this.AddLetterSpace('-', ref G, Ps.PaperSize.Width, Ps.PaperSize.Height, new Font("Arial", 8, FontStyle.Bold));
+                this.AddLetterSpace('-', ref G, Ps.PaperSize.Width, Ps.PaperSize.Height, new Font("Arial", 7, FontStyle.Bold));
 
             }
             catch (Exception ex)
@@ -460,10 +667,10 @@ namespace StephSoft.ClasesAux
                 Pf.X = 10;
                 Pf.Y = PositionY += 25;
                 Sf.Alignment = StringAlignment.Near;
-                G.DrawString("FECHA: " + ResumenCaja.FechaTicket.ToShortDateString(), new Font("Arial", 8, FontStyle.Bold), Brush, Pf, Sf);
+                G.DrawString("FECHA: " + ResumenCaja.FechaTicket.ToShortDateString(), new Font("Arial", 7, FontStyle.Bold), Brush, Pf, Sf);
                 Pf.Y = PositionY += 15;
                 Sf.Alignment = StringAlignment.Near;
-                G.DrawString("FOLIO: " + ResumenCaja.FolioTicket.ToString(), new Font("Arial", 8, FontStyle.Bold), Brush, Pf, Sf);
+                G.DrawString("FOLIO: " + ResumenCaja.FolioTicket.ToString(), new Font("Arial", 7, FontStyle.Bold), Brush, Pf, Sf);
                 Pf.Y = PositionY += 10;
 
                 foreach (FormaPago Item in this.ResumenCaja.ListaFormasPago)
@@ -471,11 +678,11 @@ namespace StephSoft.ClasesAux
                     Pf.X = 10;
                     Pf.Y = PositionY += 15;
                     Sf.Alignment = StringAlignment.Near;
-                    G.DrawString(Item.Descripcion.ToUpper(), new Font("Arial", 8, FontStyle.Bold), Brush, Pf, Sf);
+                    G.DrawString(Item.Descripcion.ToUpper(), new Font("Arial", 7, FontStyle.Bold), Brush, Pf, Sf);
 
                     Pf.X = 190;
                     Sf.Alignment = StringAlignment.Far;
-                    G.DrawString(string.Format("{0:c}", Item.MontoTotal), new Font("Arial", 8, FontStyle.Bold), Brush, Pf, Sf);
+                    G.DrawString(string.Format("{0:c}", Item.MontoTotal), new Font("Arial", 7, FontStyle.Bold), Brush, Pf, Sf);
                 }
 
                 Pf.Y = PositionY += 10;
@@ -485,10 +692,10 @@ namespace StephSoft.ClasesAux
                     Pf.X = 10;
                     Pf.Y = PositionY += 15;
                     Sf.Alignment = StringAlignment.Near;
-                    this.AddLetterSpace('-', ref G, Ps.PaperSize.Width, Ps.PaperSize.Height, new Font("Arial", 8, FontStyle.Bold));
+                    this.AddLetterSpace('-', ref G, Ps.PaperSize.Width, Ps.PaperSize.Height, new Font("Arial", 7, FontStyle.Bold));
                     Pf.Y = PositionY += 15;
-                    G.DrawString(ItemUser.Nombre.ToUpper(), new Font("Arial", 8, FontStyle.Bold), Brush, Pf, Sf);
-                    this.AddLetterSpace('-', ref G, Ps.PaperSize.Width, Ps.PaperSize.Height, new Font("Arial", 8, FontStyle.Bold));
+                    G.DrawString(ItemUser.Nombre.ToUpper(), new Font("Arial", 7, FontStyle.Bold), Brush, Pf, Sf);
+                    this.AddLetterSpace('-', ref G, Ps.PaperSize.Width, Ps.PaperSize.Height, new Font("Arial", 7, FontStyle.Bold));
                     foreach (VentaDetalle ItemServ in this.ResumenCaja.ListaServicios)
                     {
                         if (ItemServ.IDEmpleado == ItemUser.IDEmpleado)
@@ -499,32 +706,32 @@ namespace StephSoft.ClasesAux
                             if (ItemServ.Descripcion.Length > 20)
                             {
                                 int aux = 20;
-                                while (G.MeasureString(ItemServ.Descripcion.Substring(0, aux), new Font("Arial", 8)).Width < 180)
+                                while (G.MeasureString(ItemServ.Descripcion.Substring(0, aux), new Font("Arial", 7)).Width < 180)
                                 {
                                     aux++;
                                     if (ItemServ.Descripcion.Length < aux)
                                         break;
                                 }
-                                G.DrawString(ItemServ.Descripcion.Substring(0, aux - 1), new Font("Arial", 8), Brush, Pf, Sf);
+                                G.DrawString(ItemServ.Descripcion.Substring(0, aux - 1), new Font("Arial", 7), Brush, Pf, Sf);
                             }
                             else
                             {
-                                G.DrawString(ItemServ.Descripcion, new Font("Arial", 8, FontStyle.Bold), Brush, Pf, Sf);
+                                G.DrawString(ItemServ.Descripcion, new Font("Arial", 7, FontStyle.Bold), Brush, Pf, Sf);
                             }
-                            Pf.X = Ps.PaperSize.Width - 30;
+                            Pf.X = Ps.PaperSize.Width - 15;
                             Sf.Alignment = StringAlignment.Far;
-                            G.DrawString(string.Format("{0:c}", ItemServ.Total), new Font("Arial", 8, FontStyle.Bold), Brush, Pf, Sf);
+                            G.DrawString(string.Format("{0:c}", ItemServ.Total), new Font("Arial", 7, FontStyle.Bold), Brush, Pf, Sf);
                             if (ItemServ.CantidadVenta > 1)
                             {
                                 Pf.X = Pf.X + 15;
-                                G.DrawString("(" + ((int)ItemServ.CantidadVenta).ToString() + ")", new Font("Arial", 8, FontStyle.Bold), Brush, Pf, Sf);
+                                G.DrawString("(" + ((int)ItemServ.CantidadVenta).ToString() + ")", new Font("Arial", 7, FontStyle.Bold), Brush, Pf, Sf);
                             }
                         }
                     }
                     Pf.Y = PositionY += 25;
-                    Pf.X = Ps.PaperSize.Width - 30;
+                    Pf.X = Ps.PaperSize.Width - 15;
                     Sf.Alignment = StringAlignment.Far;
-                    G.DrawString(string.Format("{0:c}", ItemUser.TotalVentas), new Font("Arial", 8, FontStyle.Bold), Brush, Pf, Sf);
+                    G.DrawString(string.Format("{0:c}", ItemUser.TotalVentas), new Font("Arial", 7, FontStyle.Bold), Brush, Pf, Sf);
 
                 }
 
@@ -545,54 +752,54 @@ namespace StephSoft.ClasesAux
                 Pf.X = 10;
                 Pf.Y = PositionY += 25;
                 Sf.Alignment = StringAlignment.Near;
-                G.DrawString("GARANTÍA: " + ResumenGarantia.CodigoVale, new Font("Arial", 8, FontStyle.Bold), Brush, Pf, Sf);
+                G.DrawString("GARANTÍA: " + ResumenGarantia.CodigoVale, new Font("Arial", 7, FontStyle.Bold), Brush, Pf, Sf);
                 Pf.Y = PositionY += 15;
-                G.DrawString("FOLIO DE VENTA: " + ResumenGarantia.FolioVenta, new Font("Arial", 8, FontStyle.Bold), Brush, Pf, Sf);
+                G.DrawString("FOLIO DE VENTA: " + ResumenGarantia.FolioVenta, new Font("Arial", 7, FontStyle.Bold), Brush, Pf, Sf);
                 Pf.Y = PositionY += 15;
-                G.DrawString("CLIENTE: " + ResumenGarantia.IDCliente.ToUpper(), new Font("Arial", 8, FontStyle.Bold), Brush, Pf, Sf);
+                G.DrawString("CLIENTE: " + ResumenGarantia.IDCliente.ToUpper(), new Font("Arial", 7, FontStyle.Bold), Brush, Pf, Sf);
                 Pf.Y = PositionY += 25;
-                G.DrawString("SERVICIO(S) A GARANTÍA ", new Font("Arial", 8, FontStyle.Bold), Brush, Pf, Sf);
+                G.DrawString("SERVICIO(S) A GARANTÍA ", new Font("Arial", 7, FontStyle.Bold), Brush, Pf, Sf);
 
                 Pf.X = 10;
                 Pf.Y = PositionY += 15;
                 Sf.Alignment = StringAlignment.Near;
-                G.DrawString("CLAVE", new Font("Arial", 8, FontStyle.Bold), Brush, Pf, Sf);
+                G.DrawString("CLAVE", new Font("Arial", 7, FontStyle.Bold), Brush, Pf, Sf);
 
                 Pf.X = 90;
                 Sf.Alignment = StringAlignment.Near;
-                G.DrawString("SERVICIO", new Font("Arial", 8, FontStyle.Bold), Brush, Pf, Sf);
+                G.DrawString("SERVICIO", new Font("Arial", 7, FontStyle.Bold), Brush, Pf, Sf);
 
                 foreach (VentaDetalle Item in this.ResumenGarantia.ListaDetalle)
                 {
                     Pf.X = 10;
                     Pf.Y = PositionY += 15;
                     Sf.Alignment = StringAlignment.Near;
-                    G.DrawString(Item.Clave.ToUpper(), new Font("Arial", 8, FontStyle.Regular), Brush, Pf, Sf);
+                    G.DrawString(Item.Clave.ToUpper(), new Font("Arial", 7, FontStyle.Regular), Brush, Pf, Sf);
 
                     Pf.X = 90;
                     Sf.Alignment = StringAlignment.Near;
-                    G.DrawString(Item.NombreProducto.ToUpper(), new Font("Arial", 8, FontStyle.Regular), Brush, Pf, Sf);
+                    G.DrawString(Item.NombreProducto.ToUpper(), new Font("Arial", 7, FontStyle.Regular), Brush, Pf, Sf);
                 }
 
                 Pf.X = 10;
                 Pf.Y = PositionY += 25;
                 Sf.Alignment = StringAlignment.Near;
-                G.DrawString("OBSERVACIONES", new Font("Arial", 8, FontStyle.Bold), Brush, Pf, Sf);
-                this.AddMensaje(ref G, Ps, this.ResumenGarantia.Observaciones.ToUpper(), new Font("Arial", 8), StringAlignment.Near, 10);
+                G.DrawString("OBSERVACIONES", new Font("Arial", 7, FontStyle.Bold), Brush, Pf, Sf);
+                this.AddMensaje(ref G, Ps, this.ResumenGarantia.Observaciones.ToUpper(), new Font("Arial", 7), StringAlignment.Near, 10);
 
                 Pf.Y = PositionY += 25;
                 Sf.Alignment = StringAlignment.Near;
-                G.DrawString("EMPLEADO QUE AUTORIZA", new Font("Arial", 8, FontStyle.Bold), Brush, Pf, Sf);
+                G.DrawString("EMPLEADO QUE AUTORIZA", new Font("Arial", 7, FontStyle.Bold), Brush, Pf, Sf);
                 Pf.Y = PositionY += 15;
-                G.DrawString(this.ResumenGarantia.IDEmpleadoAutoriza.ToUpper(), new Font("Arial", 8, FontStyle.Regular), Brush, Pf, Sf);
+                G.DrawString(this.ResumenGarantia.IDEmpleadoAutoriza.ToUpper(), new Font("Arial", 7, FontStyle.Regular), Brush, Pf, Sf);
 
                 if (!string.IsNullOrEmpty(ResumenGarantia.TextoBusqueda))
                 {
                     Pf.X = 10;
                     Pf.Y = PositionY += 25;
                     Sf.Alignment = StringAlignment.Near;
-                    G.DrawString("IMPORTANTE:", new Font("Arial", 8, FontStyle.Bold), Brush, Pf, Sf);
-                    this.AddMensaje(ref G, Ps, this.ResumenGarantia.TextoBusqueda.ToUpper(), new Font("Arial", 8), StringAlignment.Near, 10);
+                    G.DrawString("IMPORTANTE:", new Font("Arial", 7, FontStyle.Bold), Brush, Pf, Sf);
+                    this.AddMensaje(ref G, Ps, this.ResumenGarantia.TextoBusqueda.ToUpper(), new Font("Arial", 7), StringAlignment.Near, 10);
                 }
             }
             catch (Exception ex)
@@ -640,12 +847,12 @@ namespace StephSoft.ClasesAux
                     if (i >= mensaje.Length)
                     {
                         g.DrawString(cadena, fuente, Brush, pf, sf);
-                        pf.Y = PositionY += 18;
+                        pf.Y = PositionY += 15;
                     }
                     else
                     {
                         g.DrawString(lastcadena, fuente, Brush, pf, sf);
-                        pf.Y = PositionY += 18;
+                        pf.Y = PositionY += 15;
                         cadena = lastpalabra;
                     }
                 }
@@ -667,7 +874,7 @@ namespace StephSoft.ClasesAux
                 pf.Y = PositionY += 15;
                 StringFormat sf = new StringFormat();
                 sf.Alignment = StringAlignment.Center;
-                h.DrawString(text, new Font("Arial", 8), Brush, pf, sf);
+                h.DrawString(text, new Font("Arial", 7), Brush, pf, sf);
             }
             catch (Exception ex)
             {
@@ -686,7 +893,7 @@ namespace StephSoft.ClasesAux
                 pf.Y = PositionY += 10;
                 StringFormat sf = new StringFormat();
                 sf.Alignment = StringAlignment.Near;
-                h.DrawString(text, new Font("Arial", 8), Brush, pf, sf);
+                h.DrawString(text, new Font("Arial", 7), Brush, pf, sf);
             }
             catch (Exception ex)
             {
@@ -704,7 +911,7 @@ namespace StephSoft.ClasesAux
                 pf.Y = PositionY += 10;
                 StringFormat sf = new StringFormat();
                 sf.Alignment = StringAlignment.Far;
-                h.DrawString(text, new Font("Arial", 8), Brush, pf, sf);
+                h.DrawString(text, new Font("Arial", 7), Brush, pf, sf);
             }
             catch (Exception ex)
             {

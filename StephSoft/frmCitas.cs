@@ -94,6 +94,7 @@ namespace StephSoft
             {
                 Cita DatosAux = new Cita { Conexion = Comun.Conexion };
                 Cita_Negocio CN = new Cita_Negocio();
+                DatosAux.IDSucursal = Comun.IDSucursalCaja;
                 CN.ObtenerCitasPendientesDiaActual(DatosAux);
                 this.dgvCitas.AutoGenerateColumns = false;
                 this.dgvCitas.DataSource = DatosAux.TablaDatos;
